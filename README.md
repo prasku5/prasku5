@@ -2,7 +2,9 @@
 <h3 align="center">Data Chronicles & Java Expeditions | Brewing Insights in Every Commit</h3>
 
 <img src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="GIF Image" align="right">
+
 Currently playing on spotify
+
 | ![Profile views](https://komarev.com/ghpvc/?username=prasku5&label=Profile%20views&color=0e75b6&style=flat) | [![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&cover_image=true&theme=natemoo-re&show_offline=false&background_color=070303&interchange=true&bar_color=0f100f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&redirect=true)
 
 
