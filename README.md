@@ -3,8 +3,7 @@
 
 <img src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="GIF Image" align="right">
 
-| ![Profile views](https://komarev.com/ghpvc/?username=prasku5&label=Profile%20views&color=0e75b6&style=flat) | [![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&cover_image=true&theme=natemoo-re&show_offline=false&background_color=070303&interchange=true&bar_color=0f100f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&redirect=true) |
-|---|---|
+| ![Profile views](https://komarev.com/ghpvc/?username=prasku5&label=Profile%20views&color=0e75b6&style=flat) | [![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&cover_image=true&theme=natemoo-re&show_offline=false&background_color=070303&interchange=true&bar_color=0f100f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&redirect=true)
 
 
 <a href="https://www.linkedin.com/in/itsprasannakumar/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
