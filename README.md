@@ -40,4 +40,4 @@
 
 <img src="https://myreadme.vercel.app/api/embed/prasku5?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
 
-![](./profile-3d-contrib/profile-night-green.svg)
+![](./profile-3d-contrib/profile-green-animate.svg)
