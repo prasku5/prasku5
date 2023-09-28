@@ -5,7 +5,6 @@
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prasku5&label=Profile%20views&color=0e75b6&style=flat" alt="prasku5" /> </p>
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 <a href="https://www.linkedin.com/in/itsprasannakumar/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://www.instagram.com/prasku/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
