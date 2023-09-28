@@ -22,3 +22,7 @@ jobs:
           git add -A .
           git commit -m "generated"
           git push
+    permissions:
+    contents: write
+    issues: write
+    pull-requests: write
