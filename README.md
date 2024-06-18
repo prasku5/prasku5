@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Prasanna Kumar</h1>
-<h3 align="center">Data Chronicles & Java Expeditions | Brewing Insights in Every Commit</h3>
+<h3 align="center">Data Chronicles & Expeditions | Brewing Insights in Every Commit</h3>
 
 <img src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="GIF Image" align="right">
 
