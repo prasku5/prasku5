@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0ebd56bb-eec3-4375-b5ca-f7288c0d6778)<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%;">
+<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%;">
     <tr>
         <td style="width: 50%; border: 1px solid black; text-align: top; vertical-align: top;">
             <a href="https://leetcode.com/u/prasku/" target="_blank">
