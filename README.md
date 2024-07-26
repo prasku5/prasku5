@@ -1,3 +1,9 @@
+<td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: middle;">
+    <a href="https://leetcode.com/u/prasku/" target="_blank">
+        <img src="https://leetcard.jacoblin.cool/prasku?theme=dark" width="400" alt="Leetcode Stats" />
+    </a>
+    <h1>Leetcode Knowledge</h1>
+</td>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -410,5 +416,7 @@
     
 </body>
 </html>
+
+
 
 Please Note: This content is self-made work (Some Assistance of AI involved). Please do not reproduce or copy any part of this document without providing proper credits about this GitHub profile. Thank you for respecting intellectual property rights.
