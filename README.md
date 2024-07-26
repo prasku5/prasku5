@@ -56,24 +56,23 @@
 
   | **Category**                    | **Methods**                                                                                      |
   |---------------------------------|--------------------------------------------------------------------------------------------------|
-  | **RDD Operations**              | `map()`, `flatMap()`, `filter()`, `mapPartitions()`, `reduce()`, `reduceByKey()`, `groupByKey()`, `sortByKey()`, `join()`, `cogroup()`, `distinct()`, `union()`, `intersection()`, `subtract()`, `zipWithIndex()`, `cache()`, `persist()`, `countByValue()`, `take()`, `takeSample()`, `sample()`, `collect()`, `first()`, `foreach()`, `saveAsTextFile()`, `saveAsSequenceFile()`, `saveAsObjectFile()` |
-  | **DataFrame Creation**          | `createDataFrame()`, `read()`, `from_records()`, `from_csv()`, `from_json()`, `from_parquet()`, `from_avro()`, `from_orc()`  |
-  | **DataFrame Operations**        | `select()`, `filter()`, `where()`, `drop()`, `withColumn()`, `withColumnRenamed()`, `alias()`, `distinct()`, `orderBy()`, `sort()`, `groupBy()`, `agg()`, `count()`, `sum()`, `avg()`, `max()`, `min()`, `collect()`, `head()`, `show()`, `describe()`, `printSchema()`, `dropDuplicates()`, `limit()`, `union()`, `intersect()`, `except()`, `join()`, `crossJoin()`, `coalesce()`, `repartition()`, `cache()`, `persist()`, `toPandas()` |
-  | **SQL Functions**               | `col()`, `lit()`, `when()`, `expr()`, `regexp_replace()`, `concat()`, `substr()`, `length()`, `lower()`, `upper()`, `trim()`, `ltrim()`, `rtrim()`, `split()`, `date_format()`, `to_date()`, `year()`, `month()`, `dayofmonth()`, `hour()`, `minute()`, `second()`, `datediff()`, `current_date()`, `current_timestamp()`, `lag()`, `lead()`, `rank()`, `dense_rank()`, `row_number()` |
-  | **Aggregation Functions**       | `sum()`, `avg()`, `min()`, `max()`, `count()`, `agg()`, `countDistinct()`, `approxQuantile()`, `pivot()`, `cube()`, `rollup()` |
-  | **Window Functions**            | `window()`, `rowsBetween()`, `rangeBetween()`, `partitionBy()`, `orderBy()`, `rank()`, `dense_rank()`, `row_number()`, `lag()`, `lead()` |
-  | **DataFrame I/O**               | `read()`, `write()`, `save()`, `load()`, `csv()`, `json()`, `parquet()`, `orc()`, `avro()`, `jdbc()`, `hive()` |
-  | **Performance Optimization**    | `cache()`, `persist()`, `unpersist()`, `repartition()`, `coalesce()`, `broadcast()`, `checkpoint()`, `explain()`, `explainMode()` |
-  | **Machine Learning (MLlib)**    | `fit()`, `transform()`, `predict()`, `evaluate()`, `crossValidator()`, `paramGrid()`, `pipeline()`, `VectorAssembler()`, `StringIndexer()`, `OneHotEncoder()`, `RandomForestClassifier()`, `LogisticRegression()`, `DecisionTreeClassifier()`, `KMeans()`, `ALS()`, `PCA()`, `LSA()`, `NaiveBayes()`, `GradientBoostedTrees()`, `LinearRegression()`, `ClassificationEvaluator()`, `RegressionEvaluator()` |
-  | **Data Handling**               | `fillna()`, `dropna()`, `replace()`, `dropDuplicates()`, `na.fill()`, `na.drop()`, `na.replace()`, `na.drop()`, `na.fill()`, `na.replace()` |
-  | **Graph Processing**            | `graphFrames()`, `pageRank()`, `shortestPaths()`, `connectedComponents()`, `triangleCount()`, `labelPropagation()` |
-  | **Error Handling & Debugging**  | `try-except`, `debug()`, `log4j()`, `info()`, `warn()`, `error()`, `setLogLevel()` |
-  | **Cluster Management**          | `standalone()`, `yarn()`, `mesos()`, `kubernetes()`, `submit()`, `kill()`, `status()`, `logs()`, `deploy()` |
-  | **Data Serialization**          | `write.format()`, `saveAsTable()`, `load()`, `to_parquet()`, `to_csv()`, `to_json()` |
-  | **Integration with Other Tools** | `hadoop()`, `hive()`, `kafka()`, `jdbc()`, `spark-submit()`, `spark-shell()`, `hdfs()`, `sqoop()` |
+  | **RDD Operations**              | - `map()`<br>- `flatMap()`<br>- `filter()`<br>- `mapPartitions()`<br>- `reduce()`<br>- `reduceByKey()`<br>- `groupByKey()`<br>- `sortByKey()`<br>- `join()`<br>- `cogroup()`<br>- `distinct()`<br>- `union()`<br>- `intersection()`<br>- `subtract()`<br>- `zipWithIndex()`<br>- `cache()`<br>- `persist()`<br>- `countByValue()`<br>- `take()`<br>- `takeSample()`<br>- `sample()`<br>- `collect()`<br>- `first()`<br>- `foreach()`<br>- `saveAsTextFile()`<br>- `saveAsSequenceFile()`<br>- `saveAsObjectFile()` |
+  | **DataFrame Creation**          | - `createDataFrame()`<br>- `read()`<br>- `from_records()`<br>- `from_csv()`<br>- `from_json()`<br>- `from_parquet()`<br>- `from_avro()`<br>- `from_orc()`  |
+  | **DataFrame Operations**        | - `select()`<br>- `filter()`<br>- `where()`<br>- `drop()`<br>- `withColumn()`<br>- `withColumnRenamed()`<br>- `alias()`<br>- `distinct()`<br>- `orderBy()`<br>- `sort()`<br>- `groupBy()`<br>- `agg()`<br>- `count()`<br>- `sum()`<br>- `avg()`<br>- `max()`<br>- `min()`<br>- `collect()`<br>- `head()`<br>- `show()`<br>- `describe()`<br>- `printSchema()`<br>- `dropDuplicates()`<br>- `limit()`<br>- `union()`<br>- `intersect()`<br>- `except()`<br>- `join()`<br>- `crossJoin()`<br>- `coalesce()`<br>- `repartition()`<br>- `cache()`<br>- `persist()`<br>- `toPandas()` |
+  | **SQL Functions**               | - `col()`<br>- `lit()`<br>- `when()`<br>- `expr()`<br>- `regexp_replace()`<br>- `concat()`<br>- `substr()`<br>- `length()`<br>- `lower()`<br>- `upper()`<br>- `trim()`<br>- `ltrim()`<br>- `rtrim()`<br>- `split()`<br>- `date_format()`<br>- `to_date()`<br>- `year()`<br>- `month()`<br>- `dayofmonth()`<br>- `hour()`<br>- `minute()`<br>- `second()`<br>- `datediff()`<br>- `current_date()`<br>- `current_timestamp()`<br>- `lag()`<br>- `lead()`<br>- `rank()`<br>- `dense_rank()`<br>- `row_number()` |
+  | **Aggregation Functions**       | - `sum()`<br>- `avg()`<br>- `min()`<br>- `max()`<br>- `count()`<br>- `agg()`<br>- `countDistinct()`<br>- `approxQuantile()`<br>- `pivot()`<br>- `cube()`<br>- `rollup()` |
+  | **Window Functions**            | - `window()`<br>- `rowsBetween()`<br>- `rangeBetween()`<br>- `partitionBy()`<br>- `orderBy()`<br>- `rank()`<br>- `dense_rank()`<br>- `row_number()`<br>- `lag()`<br>- `lead()` |
+  | **DataFrame I/O**               | - `read()`<br>- `write()`<br>- `save()`<br>- `load()`<br>- `csv()`<br>- `json()`<br>- `parquet()`<br>- `orc()`<br>- `avro()`<br>- `jdbc()`<br>- `hive()` |
+  | **Performance Optimization**    | - `cache()`<br>- `persist()`<br>- `unpersist()`<br>- `repartition()`<br>- `coalesce()`<br>- `broadcast()`<br>- `checkpoint()`<br>- `explain()`<br>- `explainMode()` |
+  | **Machine Learning (MLlib)**    | - `fit()`<br>- `transform()`<br>- `predict()`<br>- `evaluate()`<br>- `crossValidator()`<br>- `paramGrid()`<br>- `pipeline()`<br>- `VectorAssembler()`<br>- `StringIndexer()`<br>- `OneHotEncoder()`<br>- `RandomForestClassifier()`<br>- `LogisticRegression()`<br>- `DecisionTreeClassifier()`<br>- `KMeans()`<br>- `ALS()`<br>- `PCA()`<br>- `LSA()`<br>- `NaiveBayes()`<br>- `GradientBoostedTrees()`<br>- `LinearRegression()`<br>- `ClassificationEvaluator()`<br>- `RegressionEvaluator()` |
+  | **Data Handling**               | - `fillna()`<br>- `dropna()`<br>- `replace()`<br>- `dropDuplicates()`<br>- `na.fill()`<br>- `na.drop()`<br>- `na.replace()`<br>- `na.drop()`<br>- `na.fill()`<br>- `na.replace()` |
+  | **Graph Processing**            | - `graphFrames()`<br>- `pageRank()`<br>- `shortestPaths()`<br>- `connectedComponents()`<br>- `triangleCount()`<br>- `labelPropagation()` |
+  | **Error Handling & Debugging**  | - `try-except`<br>- `debug()`<br>- `log4j()`<br>- `info()`<br>- `warn()`<br>- `error()`<br>- `setLogLevel()` |
+  | **Cluster Management**          | - `standalone()`<br>- `yarn()`<br>- `mesos()`<br>- `kubernetes()`<br>- `submit()`<br>- `kill()`<br>- `status()`<br>- `logs()`<br>- `deploy()` |
+  | **Data Serialization**          | - `write.format()`<br>- `saveAsTable()`<br>- `load()`<br>- `to_parquet()`<br>- `to_csv()`<br>- `to_json()` |
+  | **Integration with Other Tools** | - `hadoop()`<br>- `hive()`<br>- `kafka()`<br>- `jdbc()`<br>- `spark-submit()`<br>- `spark-shell()`<br>- `hdfs()`<br>- `sqoop()` |
 
-</details>
-                 
+</details>                 
 <details>
   <summary>Data Structures and Algorithms</summary>
 
