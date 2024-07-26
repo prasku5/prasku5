@@ -39,10 +39,10 @@
   | **Category**                    | **Skills**                                                                                  |
   |---------------------------------|---------------------------------------------------------------------------------------------|
   | <a href="https://medium.com/@prasku/essential-python-concepts-for-data-science-70efd1b675f3" style="color:blue;">**Syntax and Semantics**</a>         | - Understanding Python’s syntax, data types, operators, and control flow (loops, conditionals). |
-  | **Functions**                    | - Writing and using functions<br>- Lambda expressions<br>- Decorators<br>- Higher-order functions |
+  | <a href="https://github.com/prasku5/Python_learning/blob/Working/Python_tutorial/Functions/functions.ipynb" style="color:blue;">**Functions**</a>                    | - Writing and using functions<br>- Lambda expressions<br>- Decorators<br>- Higher-order functions |
   | **Modules and Packages**         | - Creating, importing, and managing Python modules and packages.                             |
   | <a href="https://github.com/prasku5/Python_learning/tree/Working/Python_oops_concept" style="color:blue;">**Object-Oriented Programming (OOP)**</a> | - Classes<br>- Inheritance<br>- Polymorphism<br>- Encapsulation<br>- Designing robust class hierarchies |
-  | <a href="https://github.com/prasku5/Python_learning/tree/Working/Python_tutorial/Exceptions" style="color:blue;">**Error Handling**</a>               | - Exception handling using try, except, finally<br>- Custom exceptions                      |
+  | <a href="https://github.com/prasku5/Python_learning/tree/Working/Python_tutorial/Exceptions/exceptions.ipynb" style="color:blue;">**Error Handling**</a>               | - Exception handling using try, except, finally<br>- Custom exceptions                      |
   | **Iterators and Generators**     | - Understanding iterators and generators<br>- Use cases for memory-efficient data processing |
   | **Comprehensions**               | - List comprehensions<br>- Dictionary comprehensions<br>- Set comprehensions                  |
   | **Context Managers**             | - Using with statements<br>- Creating custom context managers for resource management        |
