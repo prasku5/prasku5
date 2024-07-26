@@ -1,4 +1,4 @@
-<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%;">
+![image](https://github.com/user-attachments/assets/0ebd56bb-eec3-4375-b5ca-f7288c0d6778)<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%;">
     <tr>
         <td style="width: 50%; border: 1px solid black; text-align: top; vertical-align: top;">
             <a href="https://leetcode.com/u/prasku/" target="_blank">
@@ -598,6 +598,28 @@
   | Removing HTML tags                                         | `<[^>]+>`                                                                         | Removes HTML tags from text.                                    | `SELECT REGEXP_REPLACE(html_column, '<[^>]+>', '');`            |
   | Matching dates in 'MM/DD/YYYY' format                       | `(?:0[1-9]|1[0-2])/(?:0[1-9]|[12][0-9]|3[01])/\d{4}`                           | Matches dates in 'MM/DD/YYYY' format.                            | `SELECT REGEXP_MATCH(date_column, '(?:0[1-9]|1[0-2])/(?:0[1-9]|[12][0-9]|3[01])/\d{4}');` |
   | Finding IP addresses in text                               | `(?:\d{1,3}\.){3}\d{1,3}`                                                         | Matches any IP address.                                          | `SELECT REGEXP_MATCH(text_column, '(?:\d{1,3}\.){3}\d{1,3}');` |
+
+</details>
+<details>
+    
+  <summary>SQL Order of execution</summary>
+  
+ Stage                          | Description                                                                                  | Example Query Component                          | References                                                                                      |
+|--------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| 1. **FROM**                    | Determines the tables and joins used in the query.                                          | `FROM table1 INNER JOIN table2 ON table1.id = table2.id` | [MySQL Documentation: FROM](https://dev.mysql.com/doc/refman/8.0/en/select.html)                |
+| 2. **ON**                      | Applies the conditions for the join operation.                                              | `ON table1.id = table2.id`                        | [MySQL Documentation: JOIN](https://dev.mysql.com/doc/refman/8.0/en/join.html)                  |
+| 3. **JOIN**                    | Processes the joins as specified in the FROM clause.                                         | `INNER JOIN table2`                              | [MySQL Documentation: JOIN](https://dev.mysql.com/doc/refman/8.0/en/join.html)                  |
+| 4. **WHERE**                   | Filters the rows based on specified conditions.                                             | `WHERE table1.value > 100`                       | [MySQL Documentation: WHERE](https://dev.mysql.com/doc/refman/8.0/en/where-optimization.html)   |
+| 5. **GROUP BY**                | Groups the rows based on specified columns.                                                 | `GROUP BY table1.category`                       | [MySQL Documentation: GROUP BY](https://dev.mysql.com/doc/refman/8.0/en/select.html#select-group-by) |
+| 6. **HAVING**                  | Filters the groups based on specified conditions.                                            | `HAVING COUNT(*) > 5`                            | [MySQL Documentation: HAVING](https://dev.mysql.com/doc/refman/8.0/en/group-by-handling.html)   |
+| 7. **SELECT**                  | Selects the columns or expressions to be returned.                                          | `SELECT table1.id, COUNT(table2.id)`             | [MySQL Documentation: SELECT](https://dev.mysql.com/doc/refman/8.0/en/select.html)              |
+| 8. **DISTINCT**                | Removes duplicate rows from the result set.                                                | `SELECT DISTINCT column_name`                    | [MySQL Documentation: DISTINCT](https://dev.mysql.com/doc/refman/8.0/en/select.html#select-distinct) |
+| 9. **ORDER BY**                | Sorts the result set based on specified columns.                                            | `ORDER BY table1.value DESC`                     | [MySQL Documentation: ORDER BY](https://dev.mysql.com/doc/refman/8.0/en/order-by-optimization.html) |
+| 10. **LIMIT**                  | Limits the number of rows returned by the query.                                             | `LIMIT 10`                                       | [MySQL Documentation: LIMIT](https://dev.mysql.com/doc/refman/8.0/en/select.html#select-limit)  |
+| 11. **OFFSET**                 | Skips a specified number of rows before starting to return rows (used with LIMIT).          | `LIMIT 10 OFFSET 20`                            | [MySQL Documentation: LIMIT](https://dev.mysql.com/doc/refman/8.0/en/select.html#select-limit)  |
+| 12. **UNION**                  | Combines results from multiple SELECT statements (if used).                                | `SELECT column_name FROM table1 UNION SELECT column_name FROM table2` | [MySQL Documentation: UNION](https://dev.mysql.com/doc/refman/8.0/en/union.html)                |
+
+<b>Code:</b> **F**riendly **J**ellyfish **W**ill **G**ather **H**appy **S**ea **D**olphins **O**ver **L**agoons
 
 </details>
             </td>
