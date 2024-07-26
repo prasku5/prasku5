@@ -26,8 +26,54 @@
   | **Decorators and Metaprogramming** | - Using and creating decorators<br>- Understanding metaclasses for advanced programming       |
 
 </details>
-                 
+<details>
+  <summary>PySpark Topics</summary>
 
+  | **Category**               | **Topics**                                                                                               |
+  |----------------------------|----------------------------------------------------------------------------------------------------------|
+  | **Introduction to PySpark** | Basics of Spark, Spark architecture, setting up PySpark environment.                                     |
+  | **RDD (Resilient Distributed Dataset)** | RDD operations (transformations and actions), creating RDDs, RDD lineage, fault tolerance.             |
+  | **DataFrames**             | Creating DataFrames, schema management, data manipulation, SQL operations on DataFrames.                |
+  | **Spark SQL**              | SQL functions, running SQL queries, DataFrame API vs. SQL API.                                           |
+  | **PySpark Functions**      | User Defined Functions (UDFs), built-in functions (col, lit, when).                                      |
+  | **Data Processing**        | Aggregations, joins, filtering, sorting, groupBy operations, handling duplicates.                       |
+  | **Performance Optimization** | Lazy evaluation, caching/persisting, partitioning, broadcast variables.                                 |
+  | **Machine Learning**       | Using MLlib for machine learning tasks, creating pipelines, model training and evaluation.               |
+  | **Data Handling**          | Handling missing values (mean, median imputation), dealing with skewed data, handling duplicates.        |
+  | **Advanced Operations**    | Window functions, working with large datasets, data streaming.                                           |
+  | **Error Handling & Debugging** | Common errors in PySpark, debugging PySpark jobs, logging.                                              |
+  | **Cluster Management**     | Understanding different cluster managers (YARN, Mesos, Kubernetes, Standalone), resource allocation.    |
+  | **Data Serialization**     | Efficient serialization methods for performance improvement.                                              |
+  | **Graph Processing**       | Basics of GraphFrames, GraphX for graph processing.                                                      |
+  | **Integration with Other Tools** | Working with Hadoop, Hive, Kafka for data ingestion and processing.                                     |
+  | **PySpark SQL**            | Working with PySpark SQL, SparkSession, SparkContext, DataFrames.                                         |
+  | **Data Formats**           | Reading and writing data in various formats like CSV, Parquet, JSON.                                     |
+  | **Algorithms**             | Common algorithms for clustering, classification, regression, recommendation using MLlib.                |
+
+</details>
+<details>
+  <summary>PySpark Methods</summary>
+
+  | **Category**                    | **Methods**                                                                                      |
+  |---------------------------------|--------------------------------------------------------------------------------------------------|
+  | **RDD Operations**              | `map()`, `flatMap()`, `filter()`, `mapPartitions()`, `reduce()`, `reduceByKey()`, `groupByKey()`, `sortByKey()`, `join()`, `cogroup()`, `distinct()`, `union()`, `intersection()`, `subtract()`, `zipWithIndex()`, `cache()`, `persist()`, `countByValue()`, `take()`, `takeSample()`, `sample()`, `collect()`, `first()`, `foreach()`, `saveAsTextFile()`, `saveAsSequenceFile()`, `saveAsObjectFile()` |
+  | **DataFrame Creation**          | `createDataFrame()`, `read()`, `from_records()`, `from_csv()`, `from_json()`, `from_parquet()`, `from_avro()`, `from_orc()`  |
+  | **DataFrame Operations**        | `select()`, `filter()`, `where()`, `drop()`, `withColumn()`, `withColumnRenamed()`, `alias()`, `distinct()`, `orderBy()`, `sort()`, `groupBy()`, `agg()`, `count()`, `sum()`, `avg()`, `max()`, `min()`, `collect()`, `head()`, `show()`, `describe()`, `printSchema()`, `dropDuplicates()`, `limit()`, `union()`, `intersect()`, `except()`, `join()`, `crossJoin()`, `coalesce()`, `repartition()`, `cache()`, `persist()`, `toPandas()` |
+  | **SQL Functions**               | `col()`, `lit()`, `when()`, `expr()`, `regexp_replace()`, `concat()`, `substr()`, `length()`, `lower()`, `upper()`, `trim()`, `ltrim()`, `rtrim()`, `split()`, `date_format()`, `to_date()`, `year()`, `month()`, `dayofmonth()`, `hour()`, `minute()`, `second()`, `datediff()`, `current_date()`, `current_timestamp()`, `lag()`, `lead()`, `rank()`, `dense_rank()`, `row_number()` |
+  | **Aggregation Functions**       | `sum()`, `avg()`, `min()`, `max()`, `count()`, `agg()`, `countDistinct()`, `approxQuantile()`, `pivot()`, `cube()`, `rollup()` |
+  | **Window Functions**            | `window()`, `rowsBetween()`, `rangeBetween()`, `partitionBy()`, `orderBy()`, `rank()`, `dense_rank()`, `row_number()`, `lag()`, `lead()` |
+  | **DataFrame I/O**               | `read()`, `write()`, `save()`, `load()`, `csv()`, `json()`, `parquet()`, `orc()`, `avro()`, `jdbc()`, `hive()` |
+  | **Performance Optimization**    | `cache()`, `persist()`, `unpersist()`, `repartition()`, `coalesce()`, `broadcast()`, `checkpoint()`, `explain()`, `explainMode()` |
+  | **Machine Learning (MLlib)**    | `fit()`, `transform()`, `predict()`, `evaluate()`, `crossValidator()`, `paramGrid()`, `pipeline()`, `VectorAssembler()`, `StringIndexer()`, `OneHotEncoder()`, `RandomForestClassifier()`, `LogisticRegression()`, `DecisionTreeClassifier()`, `KMeans()`, `ALS()`, `PCA()`, `LSA()`, `NaiveBayes()`, `GradientBoostedTrees()`, `LinearRegression()`, `ClassificationEvaluator()`, `RegressionEvaluator()` |
+  | **Data Handling**               | `fillna()`, `dropna()`, `replace()`, `dropDuplicates()`, `na.fill()`, `na.drop()`, `na.replace()`, `na.drop()`, `na.fill()`, `na.replace()` |
+  | **Graph Processing**            | `graphFrames()`, `pageRank()`, `shortestPaths()`, `connectedComponents()`, `triangleCount()`, `labelPropagation()` |
+  | **Error Handling & Debugging**  | `try-except`, `debug()`, `log4j()`, `info()`, `warn()`, `error()`, `setLogLevel()` |
+  | **Cluster Management**          | `standalone()`, `yarn()`, `mesos()`, `kubernetes()`, `submit()`, `kill()`, `status()`, `logs()`, `deploy()` |
+  | **Data Serialization**          | `write.format()`, `saveAsTable()`, `load()`, `to_parquet()`, `to_csv()`, `to_json()` |
+  | **Integration with Other Tools** | `hadoop()`, `hive()`, `kafka()`, `jdbc()`, `spark-submit()`, `spark-shell()`, `hdfs()`, `sqoop()` |
+
+</details>
+                 
 <details>
   <summary>Data Structures and Algorithms</summary>
 
@@ -157,6 +203,101 @@
   | **Meta-Programming Techniques** | - Creating and using custom descriptors<br>- Dynamic attribute access<br>- Class factories for advanced programming scenarios |
 
 </details>
+<details>
+  <summary>Data Preprocessing and Cleaning Operations</summary>
+
+  | **Category**               | **Function/Method**                | **Description**                                      | **Source**                             |
+  |----------------------------|-----------------------------------|------------------------------------------------------|----------------------------------------|
+  | **Handling Missing Values** | dropna, fillna, isnull, notnull   | Drop or fill missing values, check for nulls.       | freecodecamp.org, datagy.io            |
+  | **Removing Duplicates**     | drop_duplicates, duplicated       | Identify and remove duplicate rows.                 | freecodecamp.org, datagy.io            |
+  | **Data Type Conversion**    | astype                            | Convert data types.                                 | freecodecamp.org                       |
+  | **String Operations**       | str                               | Vectorized string operations for cleaning text data.| realpython.com                         |
+  | **Sorting Data**            | sort_values, sort_index           | Sort data by values or index.                       | pickl.ai                               |
+  | **Filtering Data**          | query, eval                        | Query and filter data efficiently.                  | pandas.pydata.org                      |
+  | **Column Manipulation**     | rename, drop, set_index, reset_index | Rename, drop columns, set and reset index.         | realpython.com                         |
+  | **Aggregation and Grouping** | groupby, agg                      | Group data and perform aggregate functions.         | pandas.pydata.org                      |
+  | **Pivoting Data**           | pivot_table, melt, stack, unstack  | Reshape data for analysis.                          | stackoverflow.com, jakevdp.github.io   |
+  | **Merging and Joining**     | merge, join, concat                | Combine data from multiple DataFrames.              | realpython.com                         |
+  | **Visualization**           | plot, hist, boxplot                | Visualize data directly from DataFrames.            | w3schools.com, DataCamp                |
+  | **Memory Optimization**     | memory_usage, astype               | Optimize memory usage by changing data types.       | pandas.pydata.org                      |
+
+</details>
+<details>
+  <summary>Pandas Concepts</summary>
+
+  | **Category**               | **Concepts**                                                                                                     |
+  |----------------------------|------------------------------------------------------------------------------------------------------------------|
+  | **Basic Operations**       | Importing Pandas, creating DataFrames, Series, basic data structures, DataFrame operations (add, subtract, multiply, divide). |
+  | **Data Import/Export**     | Reading data from CSV, Excel, JSON, SQL databases, and writing data to various formats (CSV, Excel, JSON).       |
+  | **Data Inspection**        | Viewing data (head(), tail(), info(), describe(), shape, dtypes, columns).                                         |
+  | **Indexing and Selection** | Selecting data by rows and columns, using loc and iloc, boolean indexing, setting and resetting index.             |
+  | **Data Cleaning**          | Handling missing data (dropna(), fillna()), detecting and removing duplicates, renaming columns.                   |
+  | **Data Transformation**    | Applying functions (apply(), map(), applymap()), vectorized operations, data type conversions, sorting data (sort_values(), sort_index()). |
+  | **Grouping and Aggregation** | Grouping data with groupby(), performing aggregations (sum(), mean(), count(), min(), max(), agg()).              |
+  | **Merging and Joining**    | Concatenating DataFrames (concat()), merging and joining DataFrames (merge(), join()).                             |
+  | **Time Series**            | Working with date and time data, generating date ranges, resampling, time-based indexing.                          |
+  | **Pivoting and Reshaping**  | Pivot tables (pivot_table()), reshaping data (melt(), stack(), unstack()).                                          |
+  | **Data Visualization**     | Plotting with Pandas (plot(), hist(), boxplot()), integration with Matplotlib and Seaborn.                        |
+  | **Advanced Indexing**      | MultiIndex (hierarchical indexing), cross-section (xs()), advanced indexing with pd.IndexSlice.                   |
+  | **Performance Optimization** | Efficient memory usage, using eval() and query() for efficient computations, optimizing data types.              |
+  | **Iterating**              | Iterating over rows (iterrows(), itertuples()), columns, and applying functions across DataFrames.                 |
+  | **Window Functions**       | Rolling and expanding windows, applying window functions (rolling(), expanding(), ewm()).                         |
+  | **Data Serialization**     | Reading and writing from various formats like Parquet, HDF5, and Feather.                                          |
+  | **Integration with Other Libraries** | Integration with NumPy for numerical operations, using Pandas with Scikit-Learn for machine learning workflows.  |
+
+</details>
+<details>
+  <summary>NumPy Concepts</summary>
+
+  | **Category**             | **Concept**                           | **Description**                                                               | **Source**                                         |
+  |--------------------------|---------------------------------------|-------------------------------------------------------------------------------|----------------------------------------------------|
+  | **Array Creation**       | np.array(), np.zeros(), np.ones()      | Creating arrays, arrays of zeros, and arrays of ones​                          | The Data Monk (NumPy)                             |
+  | **Array Initialization** | np.empty(), np.full(), np.arange(), np.linspace() | Creating uninitialized arrays, arrays with a specified value, sequences of numbers, and evenly spaced numbers​ | Learn R, Python & Data Science Online             |
+  | **Basic Operations**     | Addition, subtraction, multiplication, division | Element-wise operations on arrays​                                              | datagy (ProjectPro)                               |
+  | **Indexing and Slicing** | Indexing, slicing, boolean indexing   | Accessing array elements, slicing arrays, and using boolean conditions to filter arrays​ | datagy (Interview Query)                           |
+  | **Reshaping and Resizing** | np.reshape(), np.resize(), np.flatten() | Changing the shape and size of arrays, flattening arrays​                     | Interview Query (NumPy)                            |
+  | **Aggregation Functions** | np.sum(), np.mean(), np.median(), np.std() | Calculating sum, mean, median, and standard deviation of array elements​      | The Data Monk (ProjectPro)                        |
+  | **Broadcasting**         | Broadcasting rules                    | Applying operations on arrays of different shapes​                            | NumPy (Python Tutorials – Real Python)            |
+  | **Linear Algebra**       | np.dot(), np.matmul(), np.linalg.inv(), np.linalg.eig() | Dot products, matrix multiplication, matrix inversion, eigenvalues, and eigenvectors​ | ProjectPro (NumPy)                                |
+  | **Advanced Indexing**    | Fancy indexing, index arrays          | Using arrays of indices to access elements​                                    | Interview Query (NumPy)                            |
+  | **Data Types**           | dtype                                | Specifying and understanding data types within arrays​                        | ProjectPro (NumPy)                                |
+  | **File I/O**             | np.save(), np.load(), np.savetxt(), np.loadtxt() | Saving and loading arrays to/from files​                                      | NumPy                                              |
+  | **Random Sampling**      | np.random.rand(), np.random.randint(), np.random.choice() | Generating random numbers and sampling from arrays​                           | The Data Monk (Learn R, Python & Data Science Online) |
+  | **Statistical Functions** | np.percentile(), np.histogram(), np.bincount() | Calculating percentiles, histograms, and counts of unique values​              | Python Tutorials – Real Python (ProjectPro)       |
+  | **Boolean Operations**   | Logical operations                    | Applying logical operations on arrays, such as np.any(), np.all()​              | datagy (ProjectPro)                               |
+  | **Sorting and Searching** | np.sort(), np.argsort(), np.searchsorted() | Sorting arrays and searching for elements​                                    | The Data Monk (ProjectPro)                        |
+  | **Set Operations**       | np.unique(), np.intersect1d(), np.union1d() | Performing set operations on arrays​                                          | Learn R, Python & Data Science Online (NumPy)     |
+  | **Data Cleaning**        | Handling missing values, outlier detection | Removing null values, identifying and handling outliers​                      | The Data Monk                                      |
+
+</details>
+<details>
+  <summary>Timeseries Analysis</summary>
+
+  | **Category**            | **Function/Method** | **Description**                               | **Source**           |
+  |-------------------------|----------------------|-----------------------------------------------|----------------------|
+  | **Resampling**          | resample             | Resample time series data to different frequencies. | pandas.pydata.org    |
+  | **Rolling Windows**     | rolling              | Apply rolling window calculations.           | pandas.pydata.org    |
+  | **Expanding Windows**   | expanding            | Apply expanding window calculations.         | pandas.pydata.org    |
+  | **EWM**                 | ewm                  | Apply exponential weighted functions.        | pandas.pydata.org    |
+  | **Datetime Indexing**   | DatetimeIndex        | Indexing with date ranges.                   | jakevdp.github.io    |
+  | **Time Period Indexing**| PeriodIndex          | Indexing with fixed-frequency intervals.     | jakevdp.github.io    |
+
+</details>
+<details>
+  <summary>Timestamps and Date Handling</summary>
+
+  | **Category**              | **Function/Method** | **Description**                                         | **Source**           |
+  |---------------------------|----------------------|---------------------------------------------------------|----------------------|
+  | **Creating Timestamps**   | pd.Timestamp         | Create a timestamp object.                             | pandas.pydata.org    |
+  | **Date Conversion**       | pd.to_datetime       | Convert strings, epochs, or a mixture to DatetimeIndex. | pandas.pydata.org    |
+  | **Period Handling**       | pd.Period            | Represent a time span.                                 | pandas.pydata.org    |
+  | **Timedelta Handling**    | pd.Timedelta         | Represent a time duration.                             | jakevdp.github.io    |
+  | **Date Range Generation** | pd.date_range        | Generate a fixed frequency date range.                  | jakevdp.github.io    |
+  | **Date Offsets**          | pd.offsets           | Create date offsets for business days, months, years, etc. | pandas.pydata.org    |
+  | **Datetime Properties**   | .dt                  | Accessor to extract date properties like year, month, day, weekday, etc. | pandas.pydata.org    |
+
+</details>
+
 
 </td>
             <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: middle;">
