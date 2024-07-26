@@ -8,6 +8,17 @@
         <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
             <img src="https://github-readme-stats.vercel.app/api/top-langs?username=prasku5&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
         </td>
+        <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
+  
+  ![Profile views](https://komarev.com/ghpvc/?username=prasku5&label=Profile%20views&color=0e75b6&style=flat)
+
+  <a href="https://www.linkedin.com/in/itsprasannakumar/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a> <br><br>
+  <a href="https://medium.com/@prasku" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@prasku" height="30" width="40" />
+  </a>
+</td>
     </tr>
 </table>
 <!DOCTYPE html>
