@@ -556,7 +556,7 @@
 
 <details>
     
-  <summary>Examples and Use Cases</summary>
+  <summary>More Regex patterns and Use Cases</summary>
 
   | Pattern                    | Description                                                                       | Example Usage                                        | Result          |
   |----------------------------|-----------------------------------------------------------------------------------|------------------------------------------------------|-----------------|
@@ -575,7 +575,7 @@
 
 <details>
     
-  <summary>Preprocessing Challenges</summary>
+  <summary>Regex for Preprocessing Challenges</summary>
 
   | Challenge                                                   | Example Pattern                                                                 | Description                                                       | SQL Example                                                      |
   |-------------------------------------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------------------------|
