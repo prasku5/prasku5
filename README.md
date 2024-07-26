@@ -368,6 +368,17 @@
 
 </details>
 <details>
+  <summary>SQL Practice websites</summary>
+
+   | **Site Name**     | **Link**                                              |
+|-------------------|-------------------------------------------------------|
+| Data Lemur        | [datalemur.com](https://datalemur.com/)               |
+| SQLBolt           | [sqlbolt.com](https://sqlbolt.com/)                   |
+| StrataScratch     | [stratascratch.com](https://www.stratascratch.com/)   |
+| w3resource        | [w3resource.com](https://www.w3resource.com/sql-exercises/) |
+    
+</details>
+<details>
   <summary>SQL Functions and Keywords</summary>
     
   | **Category**                 | **Functions/Keywords**                                                                                   |
