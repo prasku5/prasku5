@@ -32,7 +32,7 @@
         <tr style="height: 50%;">
             <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
                 <h1> Python Knowledge </h1>
-                <b>Click item to expand</b>
+                <b>Click item below to expand</b>
                 <br>
                 <br>
  <details>
