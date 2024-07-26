@@ -112,18 +112,20 @@
 
 
 <details>
-  <summary>Design Patterns</summary>
+  <summary>Design Patterns and Principles</summary>
 
   | **Category**                    | **Skills**                                                                                  |
   |---------------------------------|---------------------------------------------------------------------------------------------|
-  | **Creational Patterns**          | - Singleton<br>- Factory Method<br>- Abstract Factory<br>- Builder<br>- Prototype         |
-  | **Structural Patterns**          | - Adapter<br>- Decorator<br>- Proxy<br>- Composite<br>- Flyweight<br>- Bridge             |
-  | **Behavioral Patterns**          | - Observer<br>- Strategy<br>- Command<br>- Chain of Responsibility<br>- Mediator<br>- Memento<br>- State<br>- Template Method<br>- Visitor |
-  | **Concurrency Patterns**         | - Producer-Consumer<br>- Read-Write Lock<br>- Thread Pool<br>- Future/Promise              |
-  | **Architectural Patterns**       | - Microservices<br>- Serverless Architecture<br>- Event-Driven Architecture<br>- CQRS (Command Query Responsibility Segregation) |
-  | **Design Principles**            | - SOLID Principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion<br>- DRY (Don't Repeat Yourself)<br>- KISS (Keep It Simple, Stupid)<br>- YAGNI (You Aren't Gonna Need It) |
-  
+  | **Creational Patterns**         | - Singleton<br>- Factory Method<br>- Abstract Factory<br>- Builder<br>- Prototype           |
+  | **Structural Patterns**         | - Adapter<br>- Decorator<br>- Proxy<br>- Composite<br>- Flyweight<br>- Bridge               |
+  | **Behavioral Patterns**         | - Observer<br>- Strategy<br>- Command<br>- Chain of Responsibility<br>- Mediator<br>- Memento<br>- State<br>- Template Method<br>- Visitor |
+  | **Concurrency Patterns**        | - Producer-Consumer<br>- Read-Write Lock<br>- Thread Pool<br>- Future/Promise               |
+  | **Architectural Patterns**      | - Microservices<br>- Serverless Architecture<br>- Event-Driven Architecture<br>- CQRS (Command Query Responsibility Segregation) |
+  | **Design Principles**           | - SOLID Principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion<br>- DRY (Don't Repeat Yourself)<br>- KISS (Keep It Simple, Stupid)<br>- YAGNI (You Aren't Gonna Need It) |
+  | **Other Patterns**              | - Facade<br>- Iterator<br>- Factory                                                        |
+
 </details>
+
 
 
 <details>
@@ -380,7 +382,28 @@
                 <h1> Cloud Knowledge </h1>        
             </td>
             <td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: middle;">
-                <h1> Leetcode Knowledge </h1>        
+                <h1> Leetcode Knowledge </h1>
+                <details>
+  <summary>Common Data Structures and Algorithms Patterns</summary>
+
+  | **Pattern**             | **Description**                                                                                                                                                                            | **Use Cases**                               |
+  |-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+  | **Sliding Window**      | Perform operations on a specific window size within a data structure, such as finding the longest subarray.<br>Usage: Use when you need to perform operations on a subset of a linear data structure (array, string) of fixed size.<br>Clue: Look for problems asking to find longest/shortest substring, subarray, or desired value in a linear structure.         | Linear data structures (arrays, strings)   |
+  | **Two Pointers**        | Use two pointers iterating through a data structure in tandem to find pairs or subarrays fulfilling conditions.<br>Usage: Use when you need to find pairs or subarrays that meet certain conditions in sorted arrays or linked lists.<br>Clue: Useful for problems involving comparisons between elements, pairs, triplets, or subarrays in sorted structures.    | Sorted arrays or linked lists              |
+  | **Fast and Slow Pointers** | Use two pointers moving at different speeds to detect cycles in linked lists or arrays.<br>Usage: Use to detect cycles in linked lists or arrays, or find the middle of a linked list.<br>Clue: Look for cyclic linked list/array problems or when needing to find midpoints or check for palindromes.                                | Cyclic data structures                     |
+  | **Merge Intervals**     | Efficiently handle overlapping intervals by merging or finding overlaps.<br>Usage: Use for problems involving overlapping intervals that need merging or identifying.<br>Clue: Look for problems mentioning overlapping intervals or requiring exclusive intervals.                                                   | Intervals, scheduling                      |
+  | **Cyclic Sort**         | Sort an array containing numbers in a given range by swapping elements to their correct positions.<br>Usage: Use for sorting arrays with numbers in a given range or finding missing/duplicate numbers.<br>Clue: Look for problems involving sorted arrays with given ranges or finding specific numbers.                         | Sorted arrays, finding missing/duplicate numbers |
+  | **In-place Reversal**   | Reverse links between nodes of a linked list without using extra memory.<br>Usage: Use when needing to reverse links in a linked list without using extra memory.<br>Clue: Look for constraints requiring in-place operations on linked lists.                                                                       | Linked lists                               |
+  | **Tree BFS**            | Traverse a tree level by level using a queue.<br>Usage: Use for traversing trees level by level.<br>Clue: Look for problems asking for level-order traversal or working with tree levels.                                                                                            | Tree structures                            |
+  | **Tree DFS**            | Traverse a tree using depth-first search, using recursion or a stack.<br>Usage: Use for depth-first traversal of trees, especially when needing to process nodes pre/in/post-order.<br>Clue: Look for tree traversal problems requiring in-order, pre-order, or post-order processing.                           | Tree structures                            |
+  | **Two Heaps**           | Use a Min Heap and Max Heap to keep track of elements and find the median efficiently.<br>Usage: Use for problems needing to find median elements or split data into two parts efficiently.<br>Clue: Look for problems mentioning finding smallest/largest/median elements.                                       | Finding smallest/largest/median elements   |
+  | **Subsets**             | Use BFS to handle permutations and combinations of a given set of elements.<br>Usage: Use for problems involving generating permutations and combinations of a set of elements.<br>Clue: Look for problems requiring combinations or permutations of elements.                                                     | Combinations, permutations                 |
+  | **Modified Binary Search** | Efficiently search for an element in a sorted array, linked list, or matrix.<br>Usage: Use for searching elements in sorted data structures (arrays, lists, matrices).<br>Clue: Look for problems involving sorted data and requiring efficient searching.                                                        | Sorted data structures                     |
+  | **Top K Elements**      | Use a Heap to find the top/smallest/frequent 'K' elements from a set.<br>Usage: Use for finding the top/smallest/frequent 'K' elements in a set.<br>Clue: Look for problems asking for top/smallest/frequent 'K' elements.                                                      | Finding top/smallest/frequent 'K' elements |
+  | **K-way Merge**         | Use a Heap to efficiently merge 'K' sorted arrays or lists.<br>Usage: Use for merging 'K' sorted arrays or lists efficiently.<br>Clue: Look for problems involving merging sorted lists or arrays.                                                                               | Merging sorted arrays/lists                |
+  | **Topological Sort**    | Perform topological sorting on a directed graph with no cycles to find a linear ordering of elements.<br>Usage: Use for sorting elements with dependencies in a directed graph without cycles.<br>Clue: Look for problems dealing with graphs, dependencies, or requiring sorted order of elements with dependencies.  | Graphs, dependency resolution              |
+
+</details>
             </td>
         </tr>
     </table>
