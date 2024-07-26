@@ -1,4 +1,4 @@
-<table>
+<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%;">
     <tr>
         <td style="width: 50%; border: 1px solid black; text-align: top; vertical-align: top;">
             <a href="https://leetcode.com/u/prasku/" target="_blank">
@@ -30,7 +30,7 @@
     
 | School: <a href="https://www.iu.edu/index.html" style="color:crimson;">Indiana University Bloomington</a> | Currently Playing | Python IDE | SQL IDE |
 |--------|-------------------|------------|----------|
-| <div align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzFncHdxdWFsZTZ2M2I5OG1odThhZ2lydGJjNWJvZjRycXU2OHNsMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9jSZ3hFjx7VCQF2/giphy.gif" alt="Indiana University Bloomington" width="200" /></div> | [![Spotify Profile](https://spotify-github-profile.kittinanx.com/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&redirect=true) | <div align="center"><a href="https://www.programiz.com/python-programming/online-compiler/" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python IDE" width="48"></a></div> | <div align="center"><a href="https://www.programiz.com/sql/online-compiler/" target="_blank"><img src="https://skillicons.dev/icons?i=mysql" alt="SQL IDE" width="48"></a></div> |
+| <div align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzFncHdxdWFsZTZ2M2I5OG1odThhZ2lydGJjNWJvZjRycXU2OHNsMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9jSZ3hFjx7VCQF2/giphy.gif" alt="Indiana University Bloomington" width="280" /></div> | [![Spotify Profile](https://spotify-github-profile.kittinanx.com/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&redirect=true) | <div align="center"><a href="https://www.programiz.com/python-programming/online-compiler/" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python IDE" width="48"></a></div> | <div align="center"><a href="https://www.programiz.com/sql/online-compiler/" target="_blank"><img src="https://skillicons.dev/icons?i=mysql" alt="SQL IDE" width="48"></a></div> |
 
 <body>
     <table style="width: 100%; height: 100%; border-collapse: collapse;">
