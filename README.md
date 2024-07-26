@@ -328,7 +328,146 @@
   | **Datetime Properties**   | .dt                  | Accessor to extract date properties like year, month, day, weekday, etc. | pandas.pydata.org    |
 
 </details>
+<details>
+  <summary>String Functions</summary>
 
+  | Function       | Description                                                                 | Example Usage                                      | Result                |
+  |----------------|-----------------------------------------------------------------------------|----------------------------------------------------|-----------------------|
+  | `CONCAT()`     | Concatenates two or more strings.                                            | `SELECT CONCAT('Hello', ' ', 'World');`         | `Hello World`       |
+  | `SUBSTRING()`  | Extracts a substring from a string.                                          | `SELECT SUBSTRING('Hello World', 1, 5);`        | `Hello`             |
+  | `LENGTH()`     | Returns the length of a string.                                               | `SELECT LENGTH('Hello');`                       | `5`                 |
+  | `UPPER()`      | Converts a string to uppercase.                                               | `SELECT UPPER('hello');`                        | `HELLO`             |
+  | `LOWER()`      | Converts a string to lowercase.                                               | `SELECT LOWER('HELLO');`                        | `hello`             |
+  | `TRIM()`       | Removes leading and trailing spaces from a string.                            | `SELECT TRIM('   Hello   ');`                   | `Hello`             |
+  | `REPLACE()`    | Replaces all occurrences of a substring within a string.                     | `SELECT REPLACE('Hello World', 'World', 'SQL');` | `Hello SQL`         |
+  | `CHARINDEX()`  | Returns the position of the first occurrence of a substring in a string.     | `SELECT CHARINDEX('World', 'Hello World');`     | `7`                 |
+  | `RIGHT()`      | Extracts the right part of a string with a specified length.                  | `SELECT RIGHT('Hello World', 5);`               | `World`             |
+  | `LEFT()`       | Extracts the left part of a string with a specified length.                   | `SELECT LEFT('Hello World', 5);`                | `Hello`             |
+  | `POSITION()`   | Returns the position of the first occurrence of a substring within a string. | `SELECT POSITION('World' IN 'Hello World');`     | `7`                 |
+  | `LTRIM()`      | Removes leading spaces from a string.                                       | `SELECT LTRIM('   Hello');`                       | `Hello`             |
+  | `RTRIM()`      | Removes trailing spaces from a string.                                       | `SELECT RTRIM('Hello   ');`                       | `Hello`             |
+  | `REVERSE()`    | Reverses the characters in a string.                                        | `SELECT REVERSE('Hello');`                        | `olleH`             |
+  | `FORMAT()`     | Formats a number or date value according to a specified format.              | `SELECT FORMAT(1234567.89, '###,###.##');`       | `1,234,567.89`      |
+
+</details>
+
+<details>
+  <summary>Number Functions</summary>
+
+  | Function       | Description                                                                 | Example Usage                                      | Result    |
+  |----------------|-----------------------------------------------------------------------------|----------------------------------------------------|-----------|
+  | `ROUND()`      | Rounds a numeric field to the number of decimals specified.                  | `SELECT ROUND(123.4567, 2);`                      | `123.46`  |
+  | `FLOOR()`      | Rounds a number down to the nearest integer.                                 | `SELECT FLOOR(123.4567);`                         | `123`     |
+  | `CEILING()`    | Rounds a number up to the nearest integer.                                   | `SELECT CEILING(123.4567);`                       | `124`     |
+  | `ABS()`        | Returns the absolute value of a number.                                      | `SELECT ABS(-123.456);`                           | `123.456` |
+  | `RAND()`       | Returns a random float value between 0 and 1.                               | `SELECT RAND();`                                 | `0.1234`  |
+  | `PI()`         | Returns the value of π (pi).                                                   | `SELECT PI();`                                    | `3.14159` |
+  | `POWER()`      | Raises a number to the power of another number.                              | `SELECT POWER(2, 3);`                             | `8`       |
+  | `SQRT()`       | Returns the square root of a number.                                         | `SELECT SQRT(16);`                                | `4`       |
+  | `LOG()`        | Returns the natural logarithm of a number.                                   | `SELECT LOG(10);`                                | `2.3026`  |
+  | `EXP()`        | Returns e raised to the power of a number.                                   | `SELECT EXP(1);`                                 | `2.7183`  |
+  | `CAST()`       | Converts a value from one data type to another.                              | `SELECT CAST('123' AS INT);`                      | `123`     |
+  | `CONVERT()`    | Converts a value from one data type to another.                              | `SELECT CONVERT(VARCHAR, 123);`                   | `123`     |
+  | `SUM()`        | Returns the sum of a numeric column.                                         | `SELECT SUM(salary) FROM employees;`             | `50000`   |
+  | `AVG()`        | Returns the average value of a numeric column.                              | `SELECT AVG(salary) FROM employees;`             | `5000`    |
+  | `MIN()`        | Returns the minimum value of a numeric column.                              | `SELECT MIN(salary) FROM employees;`             | `3000`    |
+  | `MAX()`        | Returns the maximum value of a numeric column.                              | `SELECT MAX(salary) FROM employees;`             | `8000`    |
+
+</details>
+
+<details>
+  <summary>Useful Keywords</summary>
+
+  | Keyword        | Description                                                                 | Example Usage                                      | Result    |
+  |----------------|-----------------------------------------------------------------------------|----------------------------------------------------|-----------|
+  | `CASE`         | Provides conditional logic in SQL queries.                                   | `SELECT CASE WHEN age > 18 THEN 'Adult' ELSE 'Minor' END FROM users;` | `Adult` or `Minor` |
+  | `COALESCE()`   | Returns the first non-null value in a list of arguments.                     | `SELECT COALESCE(NULL, NULL, 'Hello', 'World');`  | `Hello`   |
+  | `NULLIF()`     | Returns NULL if two expressions are equal.                                   | `SELECT NULLIF(10, 10);`                          | `NULL`    |
+  | `ISNULL()`     | Replaces NULL with a specified replacement value.                            | `SELECT ISNULL(NULL, 'Default');`                 | `Default` |
+  | `GREATEST()`   | Returns the greatest value among the arguments.                              | `SELECT GREATEST(1, 2, 3);`                       | `3`       |
+  | `LEAST()`      | Returns the smallest value among the arguments.                              | `SELECT LEAST(1, 2, 3);`                          | `1`       |
+  | `DISTINCT`     | Removes duplicate values from the result set.                               | `SELECT DISTINCT column_name FROM table_name;`   | Varies    |
+  | `LIMIT`        | Limits the number of rows returned by a query.                              | `SELECT * FROM table_name LIMIT 10;`              | First 10 rows |
+  | `OFFSET`       | Skips a number of rows before starting to return rows.                       | `SELECT * FROM table_name LIMIT 10 OFFSET 20;`    | Rows 21-30    |
+  | `JOIN`         | Combines rows from two or more tables based on a related column.             | `SELECT * FROM table1 JOIN table2 ON table1.id = table2.id;` | Combined rows |
+  | `GROUP BY`     | Groups rows that have the same values into summary rows.                     | `SELECT department, COUNT(*) FROM employees GROUP BY department;` | Count per department |
+  | `HAVING`       | Filters records after grouping them with `GROUP BY`.                         | `SELECT department, COUNT(*) FROM employees GROUP BY department HAVING COUNT(*) > 5;` | Groups with more than 5 employees |
+  | `ORDER BY`     | Sorts the result set by one or more columns.                                | `SELECT * FROM table_name ORDER BY column_name ASC;` | Sorted rows |
+  | `UNION`        | Combines the result sets of two or more `SELECT` statements.                 | `SELECT column_name FROM table1 UNION SELECT column_name FROM table2;` | Combined result sets |
+
+</details>
+<details>
+  <summary>Regex Patterns</summary>
+
+  | Pattern        | Description                                                                 | Example Usage                                       | Result    |
+  |----------------|-----------------------------------------------------------------------------|-----------------------------------------------------|-----------|
+  | `.`            | Matches any single character except newline.                                | `SELECT REGEXP_MATCH('Hello', '.');`               | `H`, `e`, `l`, `l`, `o` |
+  | `^`            | Matches the start of a string.                                               | `SELECT REGEXP_MATCH('Hello', '^H');`              | `H`       |
+  | `$`            | Matches the end of a string.                                                 | `SELECT REGEXP_MATCH('Hello', 'o$');`              | `o`       |
+  | `*`            | Matches 0 or more of the preceding element.                                  | `SELECT REGEXP_MATCH('Hello', 'l*');`              | `l`, `l`  |
+  | `+`            | Matches 1 or more of the preceding element.                                  | `SELECT REGEXP_MATCH('Hello', 'l+');`              | `l`, `l`  |
+  | `?`            | Matches 0 or 1 of the preceding element.                                      | `SELECT REGEXP_MATCH('Hello', 'l?');`              | `l`, ``    |
+  | `{n}`          | Matches exactly n occurrences of the preceding element.                      | `SELECT REGEXP_MATCH('Hello', 'l{2}');`            | `ll`      |
+  | `{n,}`         | Matches n or more occurrences of the preceding element.                      | `SELECT REGEXP_MATCH('Helloo', 'o{2,}');`         | `oo`      |
+  | `{n,m}`        | Matches between n and m occurrences of the preceding element.                | `SELECT REGEXP_MATCH('Hellooo', 'o{2,4}');`       | `ooo`     |
+  | `[]`           | Matches any one of the characters inside the brackets.                        | `SELECT REGEXP_MATCH('Hello', '[Hh]ello');`       | `Hello`, `hello` |
+  | `[^ ]`         | Matches any one character not inside the brackets.                           | `SELECT REGEXP_MATCH('Hello', '[^H]ello');`       | `ello`    |
+  | `|`            | Acts as an OR operator.                                                        | `SELECT REGEXP_MATCH('Hello', 'H|h');`            | `H`, `h`  |
+  | `()`           | Groups patterns together.                                                     | `SELECT REGEXP_MATCH('Hello', '(H|h)ello');`      | `Hello`, `hello` |
+  | `\`            | Escapes a special character.                                                   | `SELECT REGEXP_MATCH('Hello$', 'Hello\$');`       | `Hello$`  |
+  | `\d`           | Matches any digit (0-9).                                                        | `SELECT REGEXP_MATCH('123', '\d');`               | `1`, `2`, `3` |
+  | `\D`           | Matches any non-digit character.                                               | `SELECT REGEXP_MATCH('abc', '\D');`               | `a`, `b`, `c` |
+  | `\w`           | Matches any word character (alphanumeric & underscore).                        | `SELECT REGEXP_MATCH('word_123', '\w');`         | `w`, `o`, `r`, `d`, `_`, `1`, `2`, `3` |
+  | `\W`           | Matches any non-word character.                                                | `SELECT REGEXP_MATCH('word_123!', '\W');`         | `_`, `!`  |
+  | `\s`           | Matches any whitespace character.                                               | `SELECT REGEXP_MATCH('hello world', '\s');`       | ` `       |
+  | `\S`           | Matches any non-whitespace character.                                          | `SELECT REGEXP_MATCH('hello world', '\S');`       | `h`, `e`, `l`, `l`, `o`, `w`, `o`, `r`, `l`, `d` |
+
+</details>
+
+<details>
+  <summary>Examples and Use Cases</summary>
+
+  | Pattern                    | Description                                                                       | Example Usage                                        | Result          |
+  |----------------------------|-----------------------------------------------------------------------------------|------------------------------------------------------|-----------------|
+  | `^\d+$`                    | Matches strings that contain only digits.                                         | `SELECT REGEXP_MATCH('12345', '^\d+$');`           | `12345`         |
+  | `\bword\b`                 | Matches the word 'word' as a whole word (word boundary).                          | `SELECT REGEXP_MATCH('word', '\bword\b');`         | `word`          |
+  | `(\d{2}-\d{2}-\d{4})`      | Matches dates in the format 'DD-MM-YYYY'.                                         | `SELECT REGEXP_MATCH('12-01-2024', '(\d{2}-\d{2}-\d{4})');` | `12-01-2024`   |
+  | `(\d+)\s(\w+)`             | Matches a number followed by a space and then a word.                             | `SELECT REGEXP_MATCH('123 hello', '(\d+)\s(\w+)');` | `123 hello`     |
+  | `(?i)hello`                | Case-insensitive match for the word 'hello'.                                      | `SELECT REGEXP_MATCH('Hello', '(?i)hello');`       | `Hello`         |
+  | `^([a-z]+)\1$`             | Matches strings with repeating sequences of lowercase letters.                    | `SELECT REGEXP_MATCH('abab', '^([a-z]+)\1$');`    | `abab`          |
+  | `(?:abc|def)\d+`           | Matches either 'abc' or 'def' followed by one or more digits.                     | `SELECT REGEXP_MATCH('def123', '(?:abc|def)\d+');` | `def123`        |
+  | `(?<=\s)\d+`               | Matches a number that is preceded by a whitespace character (positive lookbehind). | `SELECT REGEXP_MATCH('The price is 100', '(?<=\s)\d+');` | `100`     |
+  | `(?=\d{2})\d+`             | Matches a number if it is followed by exactly two digits (positive lookahead).     | `SELECT REGEXP_MATCH('12345', '(?=\d{2})\d+');`   | `12345`        |
+  | `\b(?:\d{3}-\d{2}-\d{4})\b` | Matches a social security number format 'XXX-XX-XXXX' as a whole word.            | `SELECT REGEXP_MATCH('123-45-6789', '\b(?:\d{3}-\d{2}-\d{4})\b');` | `123-45-6789` |
+
+</details>
+
+<details>
+  <summary>Preprocessing Challenges</summary>
+
+  | Challenge                                                   | Example Pattern                                                                 | Description                                                       | SQL Example                                                      |
+  |-------------------------------------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------------------------|
+  | Extracting email addresses                                 | `[\w\.-]+@[\w\.-]+\.\w+`                                                         | Matches standard email addresses.                                | `SELECT REGEXP_MATCH(text_column, '[\w\.-]+@[\w\.-]+\.\w+');` |
+  | Removing non-alphanumeric characters                       | `[^\w\s]`                                                                         | Removes punctuation and special characters.                      | `SELECT REGEXP_REPLACE(text_column, '[^\w\s]', '');`            |
+  | Validating phone numbers in various formats                | `\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}`                                             | Matches phone numbers with different separators.                 | `SELECT REGEXP_MATCH(phone_column, '\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}');` |
+  | Extracting dates in 'YYYY-MM-DD' format                     | `\d{4}-\d{2}-\d{2}`                                                               | Matches dates in 'YYYY-MM-DD' format.                            | `SELECT REGEXP_MATCH(date_column, '\d{4}-\d{2}-\d{2}');`       |
+  | Splitting full names into first and last names              | `(\w+)\s(\w+)`                                                                     | Matches and splits full names into first and last names.         | `SELECT REGEXP_MATCH(full_name_column, '(\w+)\s(\w+)');`       |
+  | Extracting IP addresses                                    | `\b(?:\d{1,3}\.){3}\d{1,3}\b`                                                     | Matches IPv4 addresses.                                          | `SELECT REGEXP_MATCH(ip_column, '\b(?:\d{1,3}\.){3}\d{1,3}\b');` |
+  | Identifying URLs                                           | `https?://[^\s/$.?#].[^\s]*`                                                       | Matches URLs starting with http or https.                       | `SELECT REGEXP_MATCH(url_column, 'https?://[^\s/$.?#].[^\s]*');` |
+  | Validating credit card numbers                             | `\b(?:\d[ -]*?){13,16}\b`                                                         | Matches credit card numbers with 13 to 16 digits.                | `SELECT REGEXP_MATCH(cc_column, '\b(?:\d[ -]*?){13,16}\b');`  |
+  | Matching hashtags                                          | `#\w+`                                                                           | Matches hashtags starting with `#`.                              | `SELECT REGEXP_MATCH(text_column, '#\w+');`                    |
+  | Extracting monetary amounts                                | `\$\d+(?:,\d{3})*(?:\.\d{2})?`                                                     | Matches monetary amounts with optional cents.                    | `SELECT REGEXP_MATCH(amount_column, '\$\d+(?:,\d{3})*(?:\.\d{2})?');` |
+  | Finding repeated words                                    | `\b(\w+)\s+\1\b`                                                                   | Matches repeated words.                                          | `SELECT REGEXP_MATCH(text_column, '\b(\w+)\s+\1\b');`          |
+  | Identifying hexadecimal color codes                        | `#(?:[0-9a-fA-F]{3}){1,2}`                                                        | Matches hexadecimal color codes.                                 | `SELECT REGEXP_MATCH(color_column, '#(?:[0-9a-fA-F]{3}){1,2}');` |
+  | Extracting domain names from URLs                          | `https?://(?:www\.)?([^/\s]+)`                                                    | Extracts domain names from URLs.                                | `SELECT REGEXP_MATCH(url_column, 'https?://(?:www\.)?([^/\s]+)');` |
+  | Matching US ZIP codes                                      | `\b\d{5}(?:-\d{4})?\b`                                                             | Matches standard and extended US ZIP codes.                      | `SELECT REGEXP_MATCH(zip_column, '\b\d{5}(?:-\d{4})?\b');`    |
+  | Extracting file extensions                                 | `\.\w+$`                                                                         | Matches file extensions.                                         | `SELECT REGEXP_MATCH(file_column, '\.\w+$');`                   |
+  | Validating URLs with specific TLDs                         | `https?://[^\s/$.?#].[^\s]*\.(com|org|net|edu)`                                   | Matches URLs with specific top-level domains.                    | `SELECT REGEXP_MATCH(url_column, 'https?://[^\s/$.?#].[^\s]*\.(com|org|net|edu)');` |
+  | Removing HTML tags                                         | `<[^>]+>`                                                                         | Removes HTML tags from text.                                    | `SELECT REGEXP_REPLACE(html_column, '<[^>]+>', '');`            |
+  | Matching dates in 'MM/DD/YYYY' format                       | `(?:0[1-9]|1[0-2])/(?:0[1-9]|[12][0-9]|3[01])/\d{4}`                           | Matches dates in 'MM/DD/YYYY' format.                            | `SELECT REGEXP_MATCH(date_column, '(?:0[1-9]|1[0-2])/(?:0[1-9]|[12][0-9]|3[01])/\d{4}');` |
+  | Finding IP addresses in text                               | `(?:\d{1,3}\.){3}\d{1,3}`                                                         | Matches any IP address.                                          | `SELECT REGEXP_MATCH(text_column, '(?:\d{1,3}\.){3}\d{1,3}');` |
+
+</details>
 
 </td>
             <td style="width: 50%; border: 3px solid black; text-align: left; vertical-align: top;">
