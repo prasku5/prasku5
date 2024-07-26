@@ -1,5 +1,15 @@
-<h1> Python Knowledge </h1>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <table style="width: 100%; height: 100%; border-collapse: collapse;">
+        <tr style="height: 50%;">
+            <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: middle;">
+                <h1> Python Knowledge </h1>
+              
  <details>
   <summary>Core Python Skills</summary>
 
@@ -142,4 +152,44 @@
   | **Meta-Programming Techniques** | Creating and using custom descriptors, dynamic attribute access, and class factories for more advanced programming scenarios. |
 
 </details>
+
+</td>
+            <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: middle;">
+                <h1> SQL Knowledge </h1>
+                <details>
+  <summary>Database Skills</summary>
+
+  | **Category**                | **Skills**                                                                                      |
+  |-----------------------------|-------------------------------------------------------------------------------------------------|
+  | **Basic SQL Operations**    | SELECT, INSERT, UPDATE, DELETE, JOINs, WHERE, GROUP BY, ORDER BY, etc.                         |
+  | **Joins**                   | INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN                                       |
+  | **Subqueries**              | Nested queries, Correlated subqueries                                                            |
+  | **Indexes**                 | Creating, using, and optimizing indexes for query performance.                                  |
+  | **Views**                   | Creating, managing, and using database views for abstraction and security.                      |
+  | **Transactions**            | ACID properties, COMMIT, ROLLBACK, SAVEPOINT                                                     |
+  | **Stored Procedures**       | Writing and managing stored procedures for encapsulating complex logic.                         |
+  | **Functions**               | Creating and using functions for reusable code.                                                 |
+  | **Triggers**                | Creating triggers for automatic actions in response to database changes.                         |
+  | **Constraints**             | Defining primary keys, foreign keys, unique constraints, and check constraints.                  |
+  | **Backup and Recovery**     | Strategies for database backup and recovery, including point-in-time recovery.                   |
+  | **Performance Tuning**      | Query optimization, index tuning, execution plans, profiling and analyzing performance.          |
+  | **Security Management**     | User roles, permissions, encryption, and securing database access.                              |
+  | **Partitioning**            | Horizontal and vertical partitioning for managing large datasets.                               |
+  | **Replication**             | Database replication techniques for redundancy and high availability.                            |
+  | **Sharding**                | Data sharding strategies to distribute data across multiple servers.                            |
+  | **Data Warehousing**        | Designing and implementing data warehouses for large-scale data storage and analysis.            |
+  | **ETL (Extract, Transform, Load)** | Processes for extracting data from sources, transforming it, and loading it into a data warehouse. |
+  | **Data Lakes**              | Creating and managing data lakes for storing raw and unstructured data.                          |
+  | **Recursive Queries**       | Writing recursive queries to handle hierarchical data.                                           |
+  | **Window Functions**        | Using window functions for advanced analytics and calculations.                                  |
+  | **Pivot and Unpivot**       | Transforming data for better analysis and reporting.                                              |
+  | **Data Types**              | Understanding and using various data types, including numeric, string, date/time, and custom types. |
+  | **String Manipulation**     | Functions and techniques for manipulating and querying string data.                              |
+
+</details>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
 
