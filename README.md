@@ -38,10 +38,10 @@
 
   | **Category**                    | **Skills**                                                                                  |
   |---------------------------------|---------------------------------------------------------------------------------------------|
-  | **Syntax and Semantics**         | - Understanding Python’s syntax, data types, operators, and control flow (loops, conditionals). |
+  | <a href="https://medium.com/@prasku/essential-python-concepts-for-data-science-70efd1b675f3" style="color:blue;">**Syntax and Semantics**</a>         | - Understanding Python’s syntax, data types, operators, and control flow (loops, conditionals). |
   | **Functions**                    | - Writing and using functions<br>- Lambda expressions<br>- Decorators<br>- Higher-order functions |
   | **Modules and Packages**         | - Creating, importing, and managing Python modules and packages.                             |
-  | **Object-Oriented Programming (OOP)** | - Classes<br>- Inheritance<br>- Polymorphism<br>- Encapsulation<br>- Designing robust class hierarchies |
+  | <a href="https://github.com/prasku5/Python_learning" style="color:blue;">**Object-Oriented Programming (OOP)**</a> | - Classes<br>- Inheritance<br>- Polymorphism<br>- Encapsulation<br>- Designing robust class hierarchies |
   | **Error Handling**               | - Exception handling using try, except, finally<br>- Custom exceptions                      |
   | **Iterators and Generators**     | - Understanding iterators and generators<br>- Use cases for memory-efficient data processing |
   | **Comprehensions**               | - List comprehensions<br>- Dictionary comprehensions<br>- Set comprehensions                  |
