@@ -411,5 +411,4 @@
 </body>
 </html>
 
-Please Note: This content is self-made work (Some Assistance of AI involved). Please do not reproduce or copy any part of this document without providing proper credits. 
-Thank you for respecting intellectual property rights.
+Please Note: This content is self-made work (Some Assistance of AI involved). Please do not reproduce or copy any part of this document without providing proper credits about this GitHub profile. Thank you for respecting intellectual property rights.
