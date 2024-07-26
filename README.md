@@ -2,7 +2,6 @@
     <a href="https://leetcode.com/u/prasku/" target="_blank">
         <img src="https://leetcard.jacoblin.cool/prasku?theme=dark" width="400" alt="Leetcode Stats" />
     </a>
-    <h1>Leetcode Knowledge</h1>
 </td>
 <!DOCTYPE html>
 <html lang="en">
