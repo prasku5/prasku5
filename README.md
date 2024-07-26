@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
-Please Note: This content is seld made work. Please do not reproduce or copy any part of this document without providing proper credits. 
-Thank you for respecting intellectual property rights.
-    
 <body>
     <table style="width: 100%; height: 100%; border-collapse: collapse;">
         <tr style="height: 50%;">
@@ -415,3 +411,5 @@ Thank you for respecting intellectual property rights.
 </body>
 </html>
 
+Please Note: This content is self-made work (Some Assistance of AI involved). Please do not reproduce or copy any part of this document without providing proper credits. 
+Thank you for respecting intellectual property rights.
