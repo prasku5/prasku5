@@ -333,6 +333,9 @@
 </td>
             <td style="width: 50%; border: 3px solid black; text-align: left; vertical-align: top;">
                 <h1> SQL Knowledge </h1>
+                <b>Click item below to expand</b>
+                <br>
+                <br>
                 <details>
   <summary>Database Skills</summary>
 
@@ -409,10 +412,16 @@
 </details>
             </td>
             <td style="width: 33%; border: 3px solid black; text-align: left; vertical-align: top;">
-                <h1> Cloud Knowledge </h1>        
+                <h1> Cloud Knowledge </h1>
+                <b>Click item below to expand</b>
+                <br>
+                <br>
             </td>
             <td style="width: 33%; border: 3px solid black; text-align: left; vertical-align: top;">
                 <h1> Leetcode Knowledge </h1>
+                <b>Click item below to expand</b>
+                <br>
+                <br>
                 <details>
   <summary>Common Data Structures and Algorithms Patterns</summary>
 
