@@ -193,8 +193,15 @@
 
 </details>
             </td>
+            <td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: middle;">
+                <h1> Cloud Knowledge </h1>        
+            </td>
+            <td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: middle;">
+                <h1> Leetcode Knowledge </h1>        
+            </td>
         </tr>
     </table>
+    
 </body>
 </html>
 
