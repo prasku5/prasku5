@@ -35,7 +35,7 @@
               
  <details>
   <summary>Core Python Skills</summary>
-
+  
   | **Category**                    | **Skills**                                                                                  |
   |---------------------------------|---------------------------------------------------------------------------------------------|
   | <a href="https://medium.com/@prasku/essential-python-concepts-for-data-science-70efd1b675f3" style="color:blue;">**Syntax and Semantics**</a>         | - Understanding Python’s syntax, data types, operators, and control flow (loops, conditionals). |
