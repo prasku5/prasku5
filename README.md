@@ -1,14 +1,14 @@
 <table>
     <tr>
-        <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
+        <td style="width: 50%; border: 1px solid black; text-align: top; vertical-align: top;">
             <a href="https://leetcode.com/u/prasku/" target="_blank">
                 <img src="https://leetcard.jacoblin.cool/prasku?theme=dark" width="400" alt="Leetcode Stats" />
             </a>
         </td>
-        <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
+        <td style="width: 50%; border: 1px solid black; text-align: top; vertical-align: top;">
             <img src="https://github-readme-stats.vercel.app/api/top-langs?username=prasku5&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
         </td>
-        <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
+        <td style="width: 50%; border: 1px solid black; text-align: top; vertical-align: top;">
   
   ![Profile views](https://komarev.com/ghpvc/?username=prasku5&label=Profile%20views&color=0e75b6&style=flat)
 
@@ -30,7 +30,7 @@
 <body>
     <table style="width: 100%; height: 100%; border-collapse: collapse;">
         <tr style="height: 50%;">
-            <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
+            <td style="width: 50%; border: 3px solid black; text-align: left; vertical-align: top;">
                 <h1> Python Knowledge </h1>
                 <b>Click item below to expand</b>
                 <br>
@@ -326,7 +326,7 @@
 
 
 </td>
-            <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
+            <td style="width: 50%; border: 3px solid black; text-align: left; vertical-align: top;">
                 <h1> SQL Knowledge </h1>
                 <details>
   <summary>Database Skills</summary>
@@ -403,10 +403,10 @@
 
 </details>
             </td>
-            <td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: top;">
+            <td style="width: 33%; border: 3px solid black; text-align: left; vertical-align: top;">
                 <h1> Cloud Knowledge </h1>        
             </td>
-            <td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: top;">
+            <td style="width: 33%; border: 3px solid black; text-align: left; vertical-align: top;">
                 <h1> Leetcode Knowledge </h1>
                 <details>
   <summary>Common Data Structures and Algorithms Patterns</summary>
