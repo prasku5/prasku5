@@ -40,13 +40,13 @@
   |---------------------------------|---------------------------------------------------------------------------------------------|
   | <a href="https://medium.com/@prasku/essential-python-concepts-for-data-science-70efd1b675f3" style="color:blue;">**Syntax and Semantics**</a>         | - Understanding Python’s syntax, data types, operators, and control flow (loops, conditionals). |
   | <a href="https://github.com/prasku5/Python_learning/blob/Working/Python_tutorial/Functions/functions.ipynb" style="color:blue;">**Functions**</a>                    | - Writing and using functions<br>- Lambda expressions<br>- Decorators<br>- Higher-order functions |
-  | **Modules and Packages**         | - Creating, importing, and managing Python modules and packages.                             |
+  | <a href="https://github.com/prasku5/Python_learning/blob/Working/Python_tutorial/Modules_and_Packages/modules_packages.ipynb" style="color:blue;">**Modules and Packages**</a>         | - Creating, importing, and managing Python modules and packages.                             |
   | <a href="https://github.com/prasku5/Python_learning/tree/Working/Python_oops_concept" style="color:blue;">**Object-Oriented Programming (OOP)**</a> | - Classes<br>- Inheritance<br>- Polymorphism<br>- Encapsulation<br>- Designing robust class hierarchies |
   | <a href="https://github.com/prasku5/Python_learning/tree/Working/Python_tutorial/Exceptions/exceptions.ipynb" style="color:blue;">**Error Handling**</a>               | - Exception handling using try, except, finally<br>- Custom exceptions                      |
-  | **Iterators and Generators**     | - Understanding iterators and generators<br>- Use cases for memory-efficient data processing |
-  | **Comprehensions**               | - List comprehensions<br>- Dictionary comprehensions<br>- Set comprehensions                  |
-  | **Context Managers**             | - Using with statements<br>- Creating custom context managers for resource management        |
-  | <a href="https://github.com/prasku5/Python_learning/tree/Working/Python_tutorial/Decorators" style="color:blue;">**Decorators</a> and Metaprogramming** | - Using and creating decorators<br>- Understanding metaclasses for advanced programming       |
+  | <a href="https://github.com/prasku5/Python_learning/blob/Working/Python_tutorial/Itertools/itertools.ipynb" style="color:blue;">**Iterators</a> and <a href="https://github.com/prasku5/Python_learning/blob/Working/Python_tutorial/Generators/generators.ipynb" style="color:blue;">Generators**</a>     | - Understanding iterators and generators<br>- Use cases for memory-efficient data processing |
+  | <a href="https://github.com/prasku5/Python_learning/blob/Working/Python_tutorial/Comprehensions/comprehensions.ipynb" style="color:blue;">**Comprehensions**</a>               | - List comprehensions<br>- Dictionary comprehensions<br>- Set comprehensions                  |
+  | <a href="https://github.com/prasku5/Python_learning/blob/Working/Python_tutorial/Context_managers/context_managers.ipynb" style="color:blue;">**Context Managers**</a>             | - Using with statements<br>- Creating custom context managers for resource management        |
+  | <a href="https://github.com/prasku5/Python_learning/tree/Working/Python_tutorial/Decorators" style="color:blue;">**Decorators</a> and <a href="https://github.com/prasku5/Python_learning/blob/Working/Python_tutorial/Advanced/Metaprogramming.ipynb" style="color:blue;">Metaprogramming**</a> | - Using and creating decorators<br>- Understanding metaclasses for advanced programming       |
 
 </details>
 <details>
@@ -436,4 +436,4 @@
 
 
 
-Please Note: This content is self-made work (Some Assistance of AI involved). Please do not reproduce or copy any part of this document without providing proper credits about this GitHub profile. Thank you for respecting intellectual property rights.
+<b>Please Note: This content is self-made work (Some Assistance of AI involved). Please do not reproduce or copy any part of this document without providing proper credits about this GitHub profile. Thank you for respecting intellectual property rights.</b>
