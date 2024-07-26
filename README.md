@@ -28,10 +28,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
     
-| Python IDE | SQL IDE | 
-|----------|----------|
-| <div align="center"><a href="https://www.programiz.com/python-programming/online-compiler/" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python IDE"></a></div> | <div align="center"><a href="https://www.programiz.com/sql/online-compiler/" target="_blank"><img src="https://skillicons.dev/icons?i=mysql" alt="SQL IDE"></a></div> |
-    
+| Python IDE | SQL IDE | Currently Playing |
+|----------|----------|----------|
+| <div align="center"><a href="https://www.programiz.com/python-programming/online-compiler/" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python IDE"></a></div> | <div align="center"><a href="https://www.programiz.com/sql/online-compiler/" target="_blank"><img src="https://skillicons.dev/icons?i=mysql" alt="SQL IDE"></a></div> | [![Spotify Profile](https://spotify-github-profile.kittinanx.com/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=gcmzsy5n4qovnz53rdh3yg3im&redirect=true) |
 
 <body>
     <table style="width: 100%; height: 100%; border-collapse: collapse;">
