@@ -192,6 +192,37 @@
   | **String Manipulation**     | - Functions and techniques for manipulating and querying string data                             |
 
 </details>
+<details>
+  <summary>SQL Functions and Keywords</summary>
+    
+  | **Category**                 | **Functions/Keywords**                                                                                   |
+  |------------------------------|-----------------------------------------------------------------------------------------------------------|
+  | **Basic SQL Operations**     | - `SELECT`<br>- `INSERT`<br>- `UPDATE`<br>- `DELETE`<br>- `JOIN`<br>- `WHERE`<br>- `GROUP BY`<br>- `ORDER BY` |
+  | **Joins**                    | - `INNER JOIN`<br>- `LEFT JOIN`<br>- `RIGHT JOIN`<br>- `FULL JOIN`<br>- `CROSS JOIN`                     |
+  | **Subqueries**               | - Nested queries<br>- Correlated subqueries                                                                |
+  | **Indexes**                  | - `CREATE INDEX`<br>- `DROP INDEX`<br>- `ALTER INDEX`<br>- `INDEX`                                         |
+  | **Views**                    | - `CREATE VIEW`<br>- `DROP VIEW`<br>- `ALTER VIEW`<br>- `VIEW`                                            |
+  | **Transactions**             | - `BEGIN TRANSACTION`<br>- `COMMIT`<br>- `ROLLBACK`<br>- `SAVEPOINT`<br>- `SET TRANSACTION`                  |
+  | **Stored Procedures**        | - `CREATE PROCEDURE`<br>- `ALTER PROCEDURE`<br>- `DROP PROCEDURE`<br>- `EXECUTE`<br>- `CALL`                 |
+  | **Functions**                | - `CREATE FUNCTION`<br>- `ALTER FUNCTION`<br>- `DROP FUNCTION`<br>- `RETURN`<br>- `CALL`                    |
+  | **Triggers**                 | - `CREATE TRIGGER`<br>- `ALTER TRIGGER`<br>- `DROP TRIGGER`<br>- `BEFORE`<br>- `AFTER`<br>- `INSTEAD OF`   |
+  | **Constraints**              | - `PRIMARY KEY`<br>- `FOREIGN KEY`<br>- `UNIQUE`<br>- `CHECK`<br>- `NOT NULL`<br>- `DEFAULT`                |
+  | **Backup and Recovery**      | - `BACKUP DATABASE`<br>- `RESTORE DATABASE`<br>- `BACKUP LOG`<br>- `RESTORE LOG`<br>- `WITH NORECOVERY`     |
+  | **Performance Tuning**       | - `EXPLAIN`<br>- `ANALYZE`<br>- `OPTIMIZE`<br>- `INDEX`<br>- `PROFILE`<br>- `STATISTICS`                    |
+  | **Security Management**      | - `GRANT`<br>- `REVOKE`<br>- `DENY`<br>- `USER`<br>- `ROLE`<br>- `PERMISSIONS`                             |
+  | **Partitioning**             | - `PARTITION BY`<br>- `SUBPARTITION BY`<br>- `ALTER PARTITION`<br>- `DROP PARTITION`                        |
+  | **Replication**              | - `MASTER`<br>- `SLAVE`<br>- `REPLICA`<br>- `REPLICATION`<br>- `SYNC`<br>- `ASYNC`                          |
+  | **Sharding**                 | - `SHARD`<br>- `SHARDING KEY`<br>- `ROUTING`<br>- `DISTRIBUTED`                                            |
+  | **Data Warehousing**         | - `OLAP`<br>- `OLTP`<br>- `CUBE`<br>- `ROLLUP`<br>- `DRILLDOWN`<br>- `DIMENSION`<br>- `FACT`               |
+  | **ETL (Extract, Transform, Load)** | - `ETL`<br>- `EXTRACT`<br>- `TRANSFORM`<br>- `LOAD`<br>- `DATA INTEGRATION`                               |
+  | **Data Lakes**               | - `DATA LAKE`<br>- `RAW DATA`<br>- `UNSTRUCTURED DATA`<br>- `SCHEMA ON READ`                               |
+  | **Recursive Queries**        | - `WITH RECURSIVE`<br>- `UNION ALL`<br>- `CTE`<br>- `RECURSIVE`                                           |
+  | **Window Functions**         | - `ROW_NUMBER`<br>- `RANK`<br>- `DENSE_RANK`<br>- `NTILE`<br>- `PARTITION BY`<br>- `ORDER BY`<br>- `OVER` |
+  | **Pivot and Unpivot**        | - `PIVOT`<br>- `UNPIVOT`<br>- `CROSS TAB`<br>- `TRANSFORM`                                              |
+  | **Data Types**               | - `INT`<br>- `VARCHAR`<br>- `CHAR`<br>- `TEXT`<br>- `DATE`<br>- `TIME`<br>- `FLOAT`<br>- `BOOLEAN`<br>- `ARRAY`<br>- `JSON` |
+  | **String Manipulation**      | - `CONCAT`<br>- `SUBSTRING`<br>- `CHAR_LENGTH`<br>- `TRIM`<br>- `REPLACE`<br>- `SPLIT`<br>- `UPPER`<br>- `LOWER` |
+
+</details>
             </td>
             <td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: middle;">
                 <h1> Cloud Knowledge </h1>        
