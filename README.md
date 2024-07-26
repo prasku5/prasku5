@@ -223,6 +223,18 @@
   | **String Manipulation**      | - `CONCAT`<br>- `SUBSTRING`<br>- `CHAR_LENGTH`<br>- `TRIM`<br>- `REPLACE`<br>- `SPLIT`<br>- `UPPER`<br>- `LOWER` |
 
 </details>
+
+<details>
+  <summary>Timestamp Functions and Format Conversion</summary>
+
+  | **Database**    | **Functions/Keywords**                                                                                           |
+  |-----------------|-------------------------------------------------------------------------------------------------------------------|
+  | **Oracle**      | - `CURRENT_TIMESTAMP`<br>- `SYSTIMESTAMP`<br>- `LOCALTIMESTAMP`<br>- `SYSDATE`<br>- `CURRENT_DATE`<br>- `EXTRACT`<br>- `TO_TIMESTAMP`<br>- `TO_DATE`<br>- `CAST`<br>- `DBTIMEZONE`<br>- `SESSIONTIMEZONE`<br>- `ADD_MONTHS`<br>- `MONTHS_BETWEEN`<br>- `NEXT_DAY`<br>- `LAST_DAY`<br>- `ROUND`<br>- `TRUNC`<br>- **Format Conversion**<br>  - `TO_CHAR` (e.g., `TO_CHAR(date_column, 'YYYY-MM-DD HH24:MI:SS')`) <br> <!-- Converts a date or timestamp to a string in the specified format --> <br>  - `TO_TIMESTAMP` (e.g., `TO_TIMESTAMP('2024-07-25 12:34:56', 'YYYY-MM-DD HH24:MI:SS')`) <br> <!-- Converts a string to a timestamp based on the given format --> <br>  - `TO_DATE` (e.g., `TO_DATE('2024-07-25', 'YYYY-MM-DD')`) <br> <!-- Converts a string to a date based on the given format --> <br>  - `FROM_TZ` (e.g., `FROM_TZ(TIMESTAMP '2024-07-25 12:34:56', 'UTC')`) <br> <!-- Converts a timestamp with timezone to a different timezone --> |
+  | **PostgreSQL**  | - `CURRENT_TIMESTAMP`<br>- `NOW()`<br>- `LOCALTIMESTAMP`<br>- `CURRENT_DATE`<br>- `CURRENT_TIME`<br>- `EXTRACT`<br>- `DATE_TRUNC`<br>- `TO_TIMESTAMP`<br>- `TO_DATE`<br>- `AGE`<br>- `DATE_PART`<br>- `INTERVAL`<br>- `TIMEZONE`<br>- `FORMAT_TIMESTAMP`<br>- `JUSTIFY_DAYS`<br>- `JUSTIFY_HOURS`<br>- **Format Conversion**<br>  - `TO_CHAR` (e.g., `TO_CHAR(timestamp_column, 'YYYY-MM-DD HH24:MI:SS')`) <br> <!-- Converts a timestamp to a string with the specified format --> <br>  - `TO_TIMESTAMP` (e.g., `TO_TIMESTAMP('2024-07-25 12:34:56', 'YYYY-MM-DD HH24:MI:SS')`) <br> <!-- Converts a string to a timestamp based on the given format --> <br>  - `TO_DATE` (e.g., `TO_DATE('2024-07-25', 'YYYY-MM-DD')`) <br> <!-- Converts a string to a date using the specified format --> <br>  - `TO_CHAR` (e.g., `TO_CHAR(timestamp_column, 'Month DD, YYYY')`) <br> <!-- Converts a timestamp to a string in a custom format such as 'July 25, 2024' --> |
+  | **MySQL**       | - `NOW()`<br>- `CURRENT_TIMESTAMP`<br>- `CURDATE()`<br>- `CURTIME()`<br>- `SYSDATE()`<br>- `UTC_TIMESTAMP()`<br>- `DATE_FORMAT`<br>- `STR_TO_DATE`<br>- `TIMESTAMPADD`<br>- `TIMESTAMPDIFF`<br>- `ADDDATE`<br>- `SUBDATE`<br>- `DATE_ADD`<br>- `DATE_SUB`<br>- `EXTRACT`<br>- `UNIX_TIMESTAMP`<br>- `FROM_UNIXTIME`<br>- **Format Conversion**<br>  - `DATE_FORMAT` (e.g., `DATE_FORMAT(timestamp_column, '%Y-%m-%d %H:%i:%s')`) <br> - Formats a timestamp or date according to the specified format string  <br> - `STR_TO_DATE` (e.g., `STR_TO_DATE('2024/07/25 12:34:56', '%Y/%m/%d %H:%i:%s')`) <br> - Converts a string to a date or timestamp using a different custom format <br>  - `DATE_FORMAT` (e.g., `DATE_FORMAT(timestamp_column, '%W, %M %e, %Y %h:%i %p')`) <br> - Formats a timestamp into a custom string format such as 'Wednesday, July 25, 2024 12:34 PM' |
+
+
+</details>
             </td>
             <td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: middle;">
                 <h1> Cloud Knowledge </h1>        
