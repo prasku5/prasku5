@@ -604,7 +604,7 @@
     
   <summary>SQL Order of execution</summary>
   
- Stage                          | Description                                                                                  | Example Query Component                          | References                                                                                      |
+| Stage                          | Description                                                                                  | Example Query Component                          | References                                                                                      |
 |--------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | 1. **FROM**                    | Determines the tables and joins used in the query.                                          | `FROM table1 INNER JOIN table2 ON table1.id = table2.id` | [MySQL Documentation: FROM](https://dev.mysql.com/doc/refman/8.0/en/select.html)                |
 | 2. **ON**                      | Applies the conditions for the join operation.                                              | `ON table1.id = table2.id`                        | [MySQL Documentation: JOIN](https://dev.mysql.com/doc/refman/8.0/en/join.html)                  |
@@ -618,8 +618,9 @@
 | 10. **LIMIT**                  | Limits the number of rows returned by the query.                                             | `LIMIT 10`                                       | [MySQL Documentation: LIMIT](https://dev.mysql.com/doc/refman/8.0/en/select.html#select-limit)  |
 | 11. **OFFSET**                 | Skips a specified number of rows before starting to return rows (used with LIMIT).          | `LIMIT 10 OFFSET 20`                            | [MySQL Documentation: LIMIT](https://dev.mysql.com/doc/refman/8.0/en/select.html#select-limit)  |
 | 12. **UNION**                  | Combines results from multiple SELECT statements (if used).                                | `SELECT column_name FROM table1 UNION SELECT column_name FROM table2` | [MySQL Documentation: UNION](https://dev.mysql.com/doc/refman/8.0/en/union.html)                |
+| 13. **F**riendly **J**ellyfish **W**ill **G**ather **H**appy **S**ea **D**olphins **O**ver **L**agoons | - | - | - |
 
-<b>Code:</b> **F**riendly **J**ellyfish **W**ill **G**ather **H**appy **S**ea **D**olphins **O**ver **L**agoons
+ 
 
 </details>
             </td>
