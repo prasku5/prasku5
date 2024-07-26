@@ -620,8 +620,6 @@
 | 12. **UNION**                  | Combines results from multiple SELECT statements (if used).                                | `SELECT column_name FROM table1 UNION SELECT column_name FROM table2` | [MySQL Documentation: UNION](https://dev.mysql.com/doc/refman/8.0/en/union.html)                |
 | 13. **F**riendly **J**ellyfish **W**ill **G**ather **H**appy **S**ea **D**olphins **O**ver **L**agoons | - | - | - |
 
- 
-
 </details>
             </td>
             <td style="width: 33%; border: 3px solid black; text-align: left; vertical-align: top;">
