@@ -1,4 +1,4 @@
-<td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: middle;">
+<td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: top;">
     <a href="https://leetcode.com/u/prasku/" target="_blank">
         <img src="https://leetcard.jacoblin.cool/prasku?theme=dark" width="400" alt="Leetcode Stats" />
     </a>
@@ -12,7 +12,7 @@
 <body>
     <table style="width: 100%; height: 100%; border-collapse: collapse;">
         <tr style="height: 50%;">
-            <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: middle;">
+            <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
                 <h1> Python Knowledge </h1>
               
  <details>
@@ -306,7 +306,7 @@
 
 
 </td>
-            <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: middle;">
+            <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
                 <h1> SQL Knowledge </h1>
                 <details>
   <summary>Database Skills</summary>
@@ -383,10 +383,10 @@
 
 </details>
             </td>
-            <td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: middle;">
+            <td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: top;">
                 <h1> Cloud Knowledge </h1>        
             </td>
-            <td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: middle;">
+            <td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: top;">
                 <h1> Leetcode Knowledge </h1>
                 <details>
   <summary>Common Data Structures and Algorithms Patterns</summary>
