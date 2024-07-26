@@ -30,7 +30,8 @@
     
 | Python IDE | SQL IDE | 
 |----------|----------|
-|   <div align="center">[![My Skills](https://skillicons.dev/icons?i=py)](https://www.programiz.com/python-programming/online-compiler/)</div>   |  <div align="center">[![My Skills](https://skillicons.dev/icons?i=mysql)](https://www.programiz.com/sql/online-compiler/)</div>   |    
+| <div align="center"><a href="https://www.programiz.com/python-programming/online-compiler/" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python IDE"></a></div> | <div align="center"><a href="https://www.programiz.com/sql/online-compiler/" target="_blank"><img src="https://skillicons.dev/icons?i=mysql" alt="SQL IDE"></a></div> |
+    
 
 <body>
     <table style="width: 100%; height: 100%; border-collapse: collapse;">
