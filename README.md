@@ -1,8 +1,15 @@
-<td style="width: 33%; border: 1px solid black; text-align: center; vertical-align: top;">
-    <a href="https://leetcode.com/u/prasku/" target="_blank">
-        <img src="https://leetcard.jacoblin.cool/prasku?theme=dark" width="400" alt="Leetcode Stats" />
-    </a>
-</td>
+<table>
+    <tr>
+        <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
+            <a href="https://leetcode.com/u/prasku/" target="_blank">
+                <img src="https://leetcard.jacoblin.cool/prasku?theme=dark" width="400" alt="Leetcode Stats" />
+            </a>
+        </td>
+        <td style="width: 50%; border: 1px solid black; text-align: center; vertical-align: top;">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=prasku5&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
+        </td>
+    </tr>
+</table>
 <!DOCTYPE html>
 <html lang="en">
 <head>
