@@ -41,12 +41,12 @@
   | <a href="https://medium.com/@prasku/essential-python-concepts-for-data-science-70efd1b675f3" style="color:blue;">**Syntax and Semantics**</a>         | - Understanding Python’s syntax, data types, operators, and control flow (loops, conditionals). |
   | **Functions**                    | - Writing and using functions<br>- Lambda expressions<br>- Decorators<br>- Higher-order functions |
   | **Modules and Packages**         | - Creating, importing, and managing Python modules and packages.                             |
-  | <a href="https://github.com/prasku5/Python_learning" style="color:blue;">**Object-Oriented Programming (OOP)**</a> | - Classes<br>- Inheritance<br>- Polymorphism<br>- Encapsulation<br>- Designing robust class hierarchies |
-  | **Error Handling**               | - Exception handling using try, except, finally<br>- Custom exceptions                      |
+  | <a href="https://github.com/prasku5/Python_learning/tree/Working/Python_oops_concept" style="color:blue;">**Object-Oriented Programming (OOP)**</a> | - Classes<br>- Inheritance<br>- Polymorphism<br>- Encapsulation<br>- Designing robust class hierarchies |
+  | <a href="https://github.com/prasku5/Python_learning/tree/Working/Python_tutorial/Exceptions" style="color:blue;">**Error Handling**</a>               | - Exception handling using try, except, finally<br>- Custom exceptions                      |
   | **Iterators and Generators**     | - Understanding iterators and generators<br>- Use cases for memory-efficient data processing |
   | **Comprehensions**               | - List comprehensions<br>- Dictionary comprehensions<br>- Set comprehensions                  |
   | **Context Managers**             | - Using with statements<br>- Creating custom context managers for resource management        |
-  | **Decorators and Metaprogramming** | - Using and creating decorators<br>- Understanding metaclasses for advanced programming       |
+  | <a href="https://github.com/prasku5/Python_learning/tree/Working/Python_tutorial/Decorators" style="color:blue;">**Decorators</a> and Metaprogramming** | - Using and creating decorators<br>- Understanding metaclasses for advanced programming       |
 
 </details>
 <details>
