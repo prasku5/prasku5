@@ -1,6 +1,6 @@
-| Python Skill                              |
-|------------------------------------|
-| <details>
+<h1> Python Knowledge </h1>
+
+ <details>
   <summary>Core Python Skills</summary>
 
   | **Category**                    | **Skills**                                                                                  |
@@ -15,17 +15,7 @@
   | **Context Managers**             | Using with statements and creating custom context managers for resource management.         |
   | **Decorators and Metaprogramming** | Using and creating decorators, understanding metaclasses for advanced programming.           |
 
-</details>                 |
-| Data Structures and Algorithms     |
-| Data Handling and Processing       |
-| Design Patterns                    |
-| APIs and Web Services              |
-| Testing and Debugging              |
-| Security and Compliance            |
-| Advanced Programming Concepts      |
-
-
-
+</details>                 
 
 <details>
   <summary>Data Structures and Algorithms</summary>
@@ -152,3 +142,4 @@
   | **Meta-Programming Techniques** | Creating and using custom descriptors, dynamic attribute access, and class factories for more advanced programming scenarios. |
 
 </details>
+
