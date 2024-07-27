@@ -822,13 +822,12 @@
                     <tr>
                     <td colspan="2"><a href="https://medium.com/@prasku/relational-data-migration-cloud-sql-to-aws-cloud-using-aws-data-migration-service-dms-584401ceabe0" target="_blank">GCP cloud SQL+ AWS DMS + AWS RDS </a></td>
                   </tr>
-    <!-- 
                   <tr>
                     <th style="font-size: 24px;"><strong>Programming</strong></th>
                   </tr>
                   <tr>
                     <td colspan="2"><a href="https://medium.com/@prasku/essential-python-concepts-for-data-science-70efd1b675f3" target="_blank">Python Essential Concepts </a></td>
-                  </tr>
+                  </tr><!--
                     <tr>
                     <td colspan="2"><a href="https://medium.com/@prasku/lambda-uncompress-zip-file-using-event-trigger-in-aws-c1ae54b6b44a" target="_blank">Numpy + Pandas DeepDive</a></td>
                   </tr>
