@@ -654,6 +654,159 @@
   | **Topological Sort**    | Perform topological sorting on a directed graph with no cycles to find a linear ordering of elements.<br>Usage: Use for sorting elements with dependencies in a directed graph without cycles.<br>Clue: Look for problems dealing with graphs, dependencies, or requiring sorted order of elements with dependencies.  | Graphs, dependency resolution              |
 
 </details>
+<details>
+  <summary>Sliding Window</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Perform operations on a specific window size within a data structure, such as finding the longest subarray. |
+  | **Usage**      | Use when you need to perform operations on a subset of a linear data structure (array, string) of fixed size. |
+  | **Clue**       | Look for problems asking to find longest/shortest substring, subarray, or desired value in a linear structure. |
+  | **Use Cases**  | Linear data structures (arrays, strings)                                                        |
+</details>
+
+<details>
+  <summary>Two Pointers</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Use two pointers iterating through a data structure in tandem to find pairs or subarrays fulfilling conditions. |
+  | **Usage**      | Use when you need to find pairs or subarrays that meet certain conditions in sorted arrays or linked lists. |
+  | **Clue**       | Useful for problems involving comparisons between elements, pairs, triplets, or subarrays in sorted structures. |
+  | **Use Cases**  | Sorted arrays or linked lists                                                                     |
+</details>
+
+<details>
+  <summary>Fast and Slow Pointers</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Use two pointers moving at different speeds to detect cycles in linked lists or arrays. |
+  | **Usage**      | Use to detect cycles in linked lists or arrays, or find the middle of a linked list. |
+  | **Clue**       | Look for cyclic linked list/array problems or when needing to find midpoints or check for palindromes. |
+  | **Use Cases**  | Cyclic data structures                                                                            |
+</details>
+
+<details>
+  <summary>Merge Intervals</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Efficiently handle overlapping intervals by merging or finding overlaps. |
+  | **Usage**      | Use for problems involving overlapping intervals that need merging or identifying. |
+  | **Clue**       | Look for problems mentioning overlapping intervals or requiring exclusive intervals. |
+  | **Use Cases**  | Intervals, scheduling                                                                           |
+</details>
+
+<details>
+  <summary>Cyclic Sort</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Sort an array containing numbers in a given range by swapping elements to their correct positions. |
+  | **Usage**      | Use for sorting arrays with numbers in a given range or finding missing/duplicate numbers. |
+  | **Clue**       | Look for problems involving sorted arrays with given ranges or finding specific numbers. |
+  | **Use Cases**  | Sorted arrays, finding missing/duplicate numbers                                               |
+</details>
+
+<details>
+  <summary>In-place Reversal</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Reverse links between nodes of a linked list without using extra memory. |
+  | **Usage**      | Use when needing to reverse links in a linked list without using extra memory. |
+  | **Clue**       | Look for constraints requiring in-place operations on linked lists. |
+  | **Use Cases**  | Linked lists                                                                                   |
+</details>
+
+<details>
+  <summary>Tree BFS</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Traverse a tree level by level using a queue. |
+  | **Usage**      | Use for traversing trees level by level. |
+  | **Clue**       | Look for problems asking for level-order traversal or working with tree levels. |
+  | **Use Cases**  | Tree structures                                                                               |
+</details>
+
+<details>
+  <summary>Tree DFS</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Traverse a tree using depth-first search, using recursion or a stack. |
+  | **Usage**      | Use for depth-first traversal of trees, especially when needing to process nodes pre/in/post-order. |
+  | **Clue**       | Look for tree traversal problems requiring in-order, pre-order, or post-order processing. |
+  | **Use Cases**  | Tree structures                                                                               |
+</details>
+
+<details>
+  <summary>Two Heaps</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Use a Min Heap and Max Heap to keep track of elements and find the median efficiently. |
+  | **Usage**      | Use for problems needing to find median elements or split data into two parts efficiently. |
+  | **Clue**       | Look for problems mentioning finding smallest/largest/median elements. |
+  | **Use Cases**  | Finding smallest/largest/median elements                                                       |
+</details>
+
+<details>
+  <summary>Subsets</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Use BFS to handle permutations and combinations of a given set of elements. |
+  | **Usage**      | Use for problems involving generating permutations and combinations of a set of elements. |
+  | **Clue**       | Look for problems requiring combinations or permutations of elements. |
+  | **Use Cases**  | Combinations, permutations                                                                      |
+</details>
+
+<details>
+  <summary>Modified Binary Search</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Efficiently search for an element in a sorted array, linked list, or matrix. |
+  | **Usage**      | Use for searching elements in sorted data structures (arrays, lists, matrices). |
+  | **Clue**       | Look for problems involving sorted data and requiring efficient searching. |
+  | **Use Cases**  | Sorted data structures                                                                          |
+</details>
+
+<details>
+  <summary>Top K Elements</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Use a Heap to find the top/smallest/frequent 'K' elements from a set. |
+  | **Usage**      | Use for finding the top/smallest/frequent 'K' elements in a set. |
+  | **Clue**       | Look for problems asking for top/smallest/frequent 'K' elements. |
+  | **Use Cases**  | Finding top/smallest/frequent 'K' elements                                                       |
+</details>
+
+<details>
+  <summary>K-way Merge</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Use a Heap to efficiently merge 'K' sorted arrays or lists. |
+  | **Usage**      | Use for merging 'K' sorted arrays or lists efficiently. |
+  | **Clue**       | Look for problems involving merging sorted lists or arrays. |
+  | **Use Cases**  | Merging sorted arrays/lists                                                                     |
+</details>
+
+<details>
+  <summary>Topological Sort</summary>
+    
+  | **Field**  | **Details**                                                                                      |
+  |------------|--------------------------------------------------------------------------------------------------|
+  | **Description** | Perform topological sorting on a directed graph with no cycles to find a linear ordering of elements. |
+  | **Usage**      | Use for sorting elements with dependencies in a directed graph without cycles. |
+  | **Clue**       | Look for problems dealing with graphs, dependencies, or requiring sorted order of elements with dependencies. |
+  | **Use Cases**  | Graphs, dependency resolution                                                                    |
+</details>
             </td>
         </tr>
     </table>
