@@ -745,7 +745,7 @@
 </details>
 <div style="align: center;">
     <a href="https://leetcode.com/studyplan/top-sql-50/" target="_blank">
-        <img src="https://assets.leetcode.com/static_assets/others/Top_SQL_50.gif" width="105" height="105" alt="Top SQL 50">
+        <img src="https://assets.leetcode.com/static_assets/others/Top_SQL_50.gif" width="90" height="90" alt="Top SQL 50">
     </a>
 </div>
             <td style="width: 33%; border: 3px solid black; text-align: left; vertical-align: top;">
