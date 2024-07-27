@@ -743,9 +743,11 @@
 | **Practical Examples and Use Cases** | Real-world examples of recursive queries, such as finding all subordinates in an organizational hierarchy. | `WITH RECURSIVE EmployeeHierarchy AS ( SELECT id, name, manager_id, 1 AS level FROM employees WHERE manager_id IS NULL UNION ALL SELECT e.id, e.name, e.manager_id, h.level + 1 FROM employees e INNER JOIN EmployeeHierarchy h ON e.manager_id = h.id ) SELECT * FROM EmployeeHierarchy;` | `SELECT id, name, manager_id FROM employees CONNECT BY PRIOR id = manager_id;` | `WITH RECURSIVE EmployeeHierarchy AS ( SELECT id, name, manager_id, 1 AS level FROM employees WHERE manager_id IS NULL UNION ALL SELECT e.id, e.name, e.manager_id, h.level + 1 FROM employees e INNER JOIN EmployeeHierarchy h ON e.manager_id = h.id ) SELECT * FROM EmployeeHierarchy;` | Employee hierarchies, category hierarchies in e-commerce | HackerEarth, DataCamp, KDnuggets, FreeCodeCamp          |
 
 </details>
-<a href="https://leetcode.com/studyplan/top-sql-50/" target="_blank">
-    <img src="https://assets.leetcode.com/static_assets/others/Top_SQL_50.gif" width="50" height="50" alt="Top SQL 50">
-</a>
+<div style="align: center;">
+    <a href="https://leetcode.com/studyplan/top-sql-50/" target="_blank">
+        <img src="https://assets.leetcode.com/static_assets/others/Top_SQL_50.gif" width="120" height="120" alt="Top SQL 50">
+    </a>
+</div>
             <td style="width: 33%; border: 3px solid black; text-align: left; vertical-align: top;">
                 <h1> Cloud Knowledge </h1>
                 <table>
@@ -793,6 +795,46 @@
                       </table>
                     </td>
                   </tr>
+                </table>
+                <h1> Blog posts</h1>
+                <table>
+                    <tr>
+                    <th style="font-size: 24px;"><strong>Streaming</strong></th>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><a href="https://medium.com/@prasku/into-the-world-of-aws-data-streaming-services-hands-on-f5e599c85d30" target="_blank">AWS Kinesis + Firehose Hands-on</a></td>
+                  </tr>
+                    <tr>
+                    <td colspan="2"><a href="https://medium.com/@prasku/real-time-data-streaming-system-with-aws-kinesis-lambda-functions-s3-bucket-6019a3fa01c3" target="_blank">AWS Kinesis + Multi Lambda </a></td>
+                  </tr>
+                  <tr>
+                    <th style="font-size: 24px;"><strong>Batch</strong></th>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><a href="https://medium.com/@prasku/relational-data-migration-to-aws-cloud-using-mysqldump-e13010e6301a" target="_blank">Data Migration + MySQLDump</a></td>
+                  </tr>
+                    <tr>
+                    <td colspan="2"><a href="https://medium.com/@prasku/lambda-uncompress-zip-file-using-event-trigger-in-aws-c1ae54b6b44a" target="_blank">Uncompress S3 using Lambda </a></td>
+                  </tr>
+                    <tr>
+                    <td colspan="2"><a href="https://medium.com/@prasku/real-time-data-streaming-system-with-aws-kinesis-lambda-functions-s3-bucket-6019a3fa01c3" target="_blank">AWS Kinesis + Multi Lambda </a></td>
+                  </tr>  
+                    <tr>
+                    <td colspan="2"><a href="https://medium.com/@prasku/relational-data-migration-cloud-sql-to-aws-cloud-using-aws-data-migration-service-dms-584401ceabe0" target="_blank">GCP cloud SQL+ AWS DMS + AWS RDS </a></td>
+                  </tr>
+    <!-- 
+                  <tr>
+                    <th style="font-size: 24px;"><strong>Programming</strong></th>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><a href="https://medium.com/@prasku/essential-python-concepts-for-data-science-70efd1b675f3" target="_blank">Python Essential Concepts </a></td>
+                  </tr>
+                    <tr>
+                    <td colspan="2"><a href="https://medium.com/@prasku/lambda-uncompress-zip-file-using-event-trigger-in-aws-c1ae54b6b44a" target="_blank">Numpy + Pandas DeepDive</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><a href="https://medium.com/@prasku/github-lets-dig-bf46ef891269" target="_blank">Github Basics</a></td>
+                  </tr> -->
                 </table>
             </td>
             <td style="width: 33%; border: 3px solid black; text-align: left; vertical-align: top;">
