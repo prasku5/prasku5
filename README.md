@@ -750,7 +750,23 @@
                 <h1> Cloud Knowledge </h1>
                 <b>Click item below to expand</b>
                 <br>
-                <br>
+                <table>
+                  <tr>
+                    <th style="font-size: 24px;"><strong>Projects</strong></th>
+                  </tr>
+                  <tr>
+                    <td><b>Batch_project</b></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://github.com/prasku5/AWS_E2E_Batch_Pipeline_Reddit" target="_blank">AWS_E2E_Batch_Pipeline_Reddit</a></td>
+                  </tr>
+                  <tr>
+                    <td><b>Stream_project</b></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://github.com/prasku5/AWS_E2E_Realtime_Pipeline_Yelp" target="_blank">AWS_E2E_Realtime_Pipeline_Yelp</a></td>
+                  </tr>
+                </table>
             </td>
             <td style="width: 33%; border: 3px solid black; text-align: left; vertical-align: top;">
                 <h1> Leetcode Knowledge </h1>
