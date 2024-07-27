@@ -769,18 +769,30 @@
                 <h1> Certifications </h1>
                 <table>
                   <tr>
-                    <td><b>AWS Certification</b></td>
-                    <td><div align="center"><img src="https://cdn.dribbble.com/users/2100764/screenshots/5549172/media/1cba91732338cfd1c79dd251df9c31b8.gif" alt="AWS Certification" width="60" /></div></td>
+                    <td>
+                      <table>
+                        <tr>
+                          <td><b>AWS Certification</b></td>
+                          <td><div align="center"><img src="https://cdn.dribbble.com/users/2100764/screenshots/5549172/media/1cba91732338cfd1c79dd251df9c31b8.gif" alt="AWS Certification" width="70" /></div></td>
+                        </tr>
+                        <tr>
+                          <td colspan="2"><a href="https://www.dropbox.com/scl/fi/5dmkfrx5c9liy2r9uefhu/AWS-Certification.png?rlkey=q5y0xiatuv7i9gy2das4vzl9w&st=oigyrb94&dl=0" target="_blank">AWS Certified Data Analytics</a></td>
+                        </tr>
+                      </table>
+                    </td>
                   </tr>
-                  <tr>
-                    <td><a href="https://www.dropbox.com/scl/fi/5dmkfrx5c9liy2r9uefhu/AWS-Certification.png?rlkey=q5y0xiatuv7i9gy2das4vzl9w&st=oigyrb94&dl=0" target="_blank">AWS Certified Data Analytics</a></td>
-                  </tr>
-                  <tr>
-                    <td><b>GCP Certificatioin</b></td>
-                      <td><div align="center"><img src="https://cdn.dribbble.com/users/57858/screenshots/2292590/jeshie_dribbble_cloud.gif" alt="AWS Certification" width="60" /></div></td>
-                  </tr>
-                  <tr>
-                    <td><a href="https://www.dropbox.com/scl/fi/ohqmpbzro3rdvjirl7bwf/GCP-Certification.png?rlkey=5bumz8qc175h3hga3qfxumyvo&st=ydseuof8&dl=0" target="_blank">GCP Professional Data Engineer</a></td>
+                                  <tr>
+                    <td>
+                      <table>
+                        <tr>
+                          <td><b>GCP Certification</b></td>
+                          <td><div align="center"><img src="https://cdn.dribbble.com/users/57858/screenshots/2292590/jeshie_dribbble_cloud.gif" alt="GCP Certification" width="60" /></div></td>
+                        </tr>
+                        <tr>
+                          <td colspan="2"><a href="https://www.dropbox.com/scl/fi/ohqmpbzro3rdvjirl7bwf/GCP-Certification.png?rlkey=5bumz8qc175h3hga3qfxumyvo&st=ydseuof8&dl=0" target="_blank">GCP Professional Data Engineer</a></td>
+                        </tr>
+                      </table>
+                    </td>
                   </tr>
                 </table>
             </td>
