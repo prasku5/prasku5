@@ -621,6 +621,33 @@
 | 13. **F**riendly **J**ellyfish **W**ill **G**ather **H**appy **S**ea **D**olphins **O**ver **L**agoons | - | - | - |
 
 </details>
+<details>
+    <summary>Problem Solving Tips</summary>
+    
+    | **Condition**                                             | **Tip**                                                                                                                       |
+    |-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+    | **Each keyword**                                         | Put that column-related table in the LEFT JOIN                                                                               |
+    | **Nth highest salary**                                   | Use `DENSE_RANK()` to avoid gaps; alternatives include using two `MAX()` functions, two `LIMIT` clauses, or `DENSE_RANK()` with CTE |
+    | **Null based salary**                                    | Use `IFNULL(DISTINCT SELECT CONDITION, NULL) AS destination_column_name`                                                        |
+    | **Consecutive numbers**                                  | 1) Use EQUI JOIN with `(current_table.field = duplicate_table1.field + 1)` and `(current_table.field = duplicate_table2.field + 2)`<br>2) Use `RANK()` and `SUM()` with a check that the sum equals exactly 3; Group by the interested field |
+    | **Parent/Child relationship**                            | EQUI JOIN based on associated columns and filter using conditions in the JOIN itself                                            |
+    | **Finding duplicates**                                   | Group by key and use `HAVING > some_value`<br>Alternatively, use `ROW_NUMBER()` on key and filter `RN > 1`                    |
+    | **Find results from Base Table not present**             | Use JOIN results where not in (entire other table results)<br>Alternatively, use CTE results and then JOIN results           |
+    | **Find results from other table**                        | Left anti join to get results from the first table; use `LEFT JOIN` where the `other_table.join_column` is `NULL` (e.g., in PySpark) |
+    | **Find results from based table using condition**        | Use JOIN results where `IN (condition-based results)`<br>For example, find max top salaried employees                         |
+    | **Target column (compare) previous all values**          | Use EQUI JOIN `(WHERE)` with `DATE_DIFF()` and conditions<br>Alternatively, use `INNER JOIN (ON)` with `DATE_DIFF()` and conditions |
+    | **First logged date**                                    | Use `MIN(date)`                                                                                                                |
+    | **Sum of all previous until current column**             | Use `SUM(target_count_column) OVER (PARTITION BY column ORDER BY column ASC/DESC) AS target_count_until_current_row`<br>Alternatively, use EQUI JOIN with `(current column condition, other table column)` (e.g., `t1.event_date > t2.event_date`) |
+    | **FILTER CONDITION (If needs null value in result)**      | Use `WHERE condition IS NULL` to include NULL results in the output                                                            |
+    | **ORDER BY CTE (2 derived columns from it)**             | Order by the derived columns (e.g., `ORDER BY derived_column1, derived_column2`)                                               |
+    | **HAVING**                                               | Use `HAVING` for filtration based on group by columns or specific conditions                                                     |
+    | **IFNULL(expression, value_if_null)**                    | Use `IFNULL(expression, value_if_null)` to handle null values in results                                                         |
+    | **expression IS NULL**                                   | Use `SELECT employee_id, name FROM employees WHERE bonus IS NULL;`                                                             |
+    | **Indexes**                                              | Use indexes on columns related to JOIN, FILTER, and GROUP BY operations                                                          |
+    | **Avoid full table scans**                                | Optimize queries to prevent full table scans                                                                                   |
+    | **Simplify queries**                                     | Use CTEs to simplify complex queries                                                                                             |
+    
+</details>
             </td>
             <td style="width: 33%; border: 3px solid black; text-align: left; vertical-align: top;">
                 <h1> Cloud Knowledge </h1>
