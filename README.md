@@ -690,7 +690,9 @@
 | **Practical Examples and Use Cases** | Real-world examples of recursive queries, such as finding all subordinates in an organizational hierarchy. | `WITH RECURSIVE EmployeeHierarchy AS ( SELECT id, name, manager_id, 1 AS level FROM employees WHERE manager_id IS NULL UNION ALL SELECT e.id, e.name, e.manager_id, h.level + 1 FROM employees e INNER JOIN EmployeeHierarchy h ON e.manager_id = h.id ) SELECT * FROM EmployeeHierarchy;` | `SELECT id, name, manager_id FROM employees CONNECT BY PRIOR id = manager_id;` | `WITH RECURSIVE EmployeeHierarchy AS ( SELECT id, name, manager_id, 1 AS level FROM employees WHERE manager_id IS NULL UNION ALL SELECT e.id, e.name, e.manager_id, h.level + 1 FROM employees e INNER JOIN EmployeeHierarchy h ON e.manager_id = h.id ) SELECT * FROM EmployeeHierarchy;` | Employee hierarchies, category hierarchies in e-commerce | HackerEarth, DataCamp, KDnuggets, FreeCodeCamp          |
 
 </details>
-            </td>
+<a href="https://leetcode.com/studyplan/top-sql-50/" target="_blank">
+    <img src="https://assets.leetcode.com/static_assets/others/Top_SQL_50.gif" width="50" height="50" alt="Top SQL 50">
+</a>
             <td style="width: 33%; border: 3px solid black; text-align: left; vertical-align: top;">
                 <h1> Cloud Knowledge </h1>
                 <b>Click item below to expand</b>
