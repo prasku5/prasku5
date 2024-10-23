@@ -74,7 +74,7 @@
   | **Error Handling & Debugging** | Common errors in PySpark, debugging PySpark jobs, logging.                                              |
   | **Cluster Management**     | Understanding different cluster managers (YARN, Mesos, Kubernetes, Standalone), resource allocation.    |
   | **Data Serialization**     | Efficient serialization methods for performance improvement.                                              |
-  | **Graph Processing**       | Basics of GraphFrames, GraphX for graph processing.                                                      |
+  | **Graph Processing**       | Basics of  GraphFrames, GraphX for graph processing.                                                      |
   | **Integration with Other Tools** | Working with Hadoop, Hive, Kafka for data ingestion and processing.                                     |
   | **PySpark SQL**            | Working with PySpark SQL, SparkSession, SparkContext, DataFrames.                                         |
   | **Data Formats**           | Reading and writing data in various formats like CSV, Parquet, JSON.                                     |
