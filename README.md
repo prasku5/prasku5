@@ -201,7 +201,7 @@
   |---------------------------------|---------------------------------------------------------------------------------------------|
   | **Creational Patterns**         | - Singleton<br>- Factory Method<br>- Abstract Factory<br>- Builder<br>- Prototype           |
   | **Structural Patterns**         | - Adapter<br>- Decorator<br>- Proxy<br>- Composite<br>- Flyweight<br>- Bridge               |
-  | **Behavioral Patterns**         | - Observer<br>- Strategy<br>- Command<br>- Chain of Responsibility<br>- Mediator<br>- Memento<br>- State<br>- Template Method<br>- Visitor |
+  | **Behavioral Patterns**         | - Observer<br>-  Strategy<br>- Command<br>- Chain of Responsibility<br>- Mediator<br>- Memento<br>- State<br>- Template Method<br>- Visitor |
   | **Concurrency Patterns**        | - Producer-Consumer<br>- Read-Write Lock<br>- Thread Pool<br>- Future/Promise               |
   | **Architectural Patterns**      | - Microservices<br>- Serverless Architecture<br>- Event-Driven Architecture<br>- CQRS (Command Query Responsibility Segregation) |
   | **Design Principles**           | - SOLID Principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion<br>- DRY (Don't Repeat Yourself)<br>- KISS (Keep It Simple, Stupid)<br>- YAGNI (You Aren't Gonna Need It) |
